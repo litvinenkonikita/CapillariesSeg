@@ -1,0 +1,3180 @@
+{
+    "tags": [],
+    "description": "",
+    "objects": [
+        {
+            "id": 1094014930,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    758,
+                    986
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKxQMzHyAwky5c23QRSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5BR6ujiGVMxx7dvN22DA46Lf5eLVf0BDUrdnqpDZRw4PE81FMmaMhUc/u3+a2xi+UHoJY6Tjrwnu6ucdmC8cfcWyoHO+mYKdb7Tn1tVbFgc8fui+LjQ+frpF0txE7kcnFkpd5pRs3aN1acL5XQ/7Dc2rl4jH3y5glg+PXR/GlqICtJzB09XPZZ1TQhMAETpHgA=="
+            }
+        },
+        {
+            "id": 1094014931,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    771,
+                    908
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJaIDYjM5B8uiRvGpBiC/AJcQXS////X3pz/l0gi7EkyC+YweHZjTQgx9XTxTGkYo5qz0HeBgOeIz2/HtwUtOJarbgxwv1Rd0uK3tNk9UnCDYcbfOurDn0ovGTU/6LNbvVC10hv29QnQYbl+35P1V/3g5nJV7VYvsLvLNBABk9XP5d1TglNAMfPNzY="
+            }
+        },
+        {
+            "id": 1094014932,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    725,
+                    815
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLuQCzEyAwkjW0DJYAUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOUWeLo4hFXN0+zbyNhjwsNh7OXp6N04JjOARNEsUVRE7yaGpzGiW355fU7U/nm1X0stit1V8iwLlmxeIaM5vnnhhxUph4ch4ZeN1TQo3Jhx9f9Fgk1ZR9t3GwPie7feDureaLPZJZ4ruepWY+e3kq/ol9o/2/P7BcGWud+T7+TMeA21n8HT1c1nnlNAEAG6hSI4="
+            }
+        },
+        {
+            "id": 1094014933,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    602,
+                    422
+                ],
+                "data": "eJwBLQTS+4lQTkcNChoKAAAADUlIRFIAAAC0AAABeQEDAAAADAKSrwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPVSURBVHic7Zm/btcwEMfP8uAF4ScAv0aHCr8SbAwVCRNjH6EvgkQQAyOP0FQdOtaoSypCjrOdX/7Yd6ISQuqQ7/CT+kns2K79vbMNsMrCCJw8YhD4b64EccRJ4ExVmTMF8qMKutY6jvvg7/CB4SMOADVvUmtqnpozNi3LESvuBD4/qDBYsb/2kudgkP/fgMSfi14K3DPjAmnIrrknaSi7p/M0c3qGG4GDxmuWUxGGm47ndhhfOo4j/12Ja4GD1N9G4GZ4L82QC4GfCfzQoX+QZxwyc97yLGepkJZGxxZQAgfbc/QCdGBraQU+GY6L4dEIRkOe1bHcCgOk+fEB+CDwQ4cOPVm6BWRiHvmPxul1xSnQ3jOJbDOnh2VCdsKlyy0cGT40RUJpumwmvgjzSw5i93yxMFW45dtYRZvau+Nnr6jm77FTe34+N7IruJ95L/CgeV6mKX/htkysiXcNjqYcN085vsVBVePsOzBTHNYBSqkhDkOoeJSVgoxkxoeepBcCtxJv6Uf3Fdf3n+M/aSz3rL9pXsS581gE03Wa9f/IPxLz1fr32NHU0w8lN7m8wm/F/DPxb9UGXXCN8e0AJae8JE7wikPTU0Yx5fq2cujiompCwU3q1WOVnNDSwZ/cLoK8qHdMkuYm22khx2G21YcOPQsJ+w2Rhzf0o7r6QTzbaMh/eti/QPEmJf8YyL3MuqA06pQf0M9d59YA9i4Huqu4Lh9Wx9EpaViNaHYWwldha1BzZIvbBNoRNDF1wJuVwzm5E5xM1KdIubR026uNs1Dw/sBxIIcI7vLrLSH1sOH00SGF7EnvIq3Bqv1zRRv1Am83PNlTVp1ImTGOSthzuDiHQ4cOPQP1ApeObE5cFWm7CeBGU9tDttasbZUKfzA2E4/9GVui7V7edyQ7Wb9MVh388kG38GZX3oxLNTuf0iduly/exkYu7zdjLDEb3LDhA7VmXHeWC+/Axj76khffWfs7N5Ca2mCd4NGHe1XabZSvt0x5BHh86NChZyjpzMLUS15NfnTMwXU2p8uKkyHbgduf51ISDzxnD95J3I2a+cpZVnZFpr844RfmCAiE459D/1nVccWJi5c7PV/Ajr4skS6CaMbehLLuWEeDv4r5YROPE+fjrlXudHaD12PBXa/jOeT+ENLh4GJ8dcXMnPmkiuA7c+yKQ1pznzl93e36pgYHj4nv754jz73Yr0QVEg/VCVpwbRyIT0NxNRZiYuHq5GGwI3tXTanYvMfbtROmaC2q5vgtAl+t3Kbbd/Qk31uW28C/r0M1GTIX7gyVcMconxEIl+nlXfofYfLRenmUracAAAAASUVORK5CYIJPdg5+"
+            }
+        },
+        {
+            "id": 1094014934,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    648,
+                    345
+                ],
+                "data": "eJwBEQHu/olQTkcNChoKAAAADUlIRFIAAABhAAAAIwEDAAAAvlj2hwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAC5SURBVHicdZAxDsMgDEUdZcjWHIGLVOJozg16pUodeg06dfXWDIjf2AngqKoHxAN//y8TEU2JXEXcHQGlwwig07TR0mh+wgnnsbjPy5AjinRpANYGww3IbDacKbyhpc2MxB+j1UhQ1BNZDfTy0KPsoYGXtR7jIRrWIszWFCCxkj2fqXWqV9XJJuRlpyBmUh3ETA73kGhATUYxadgjtbAjthXZmFRpKtcAW7Tf+w8t/2g8EfHqQGO2+gK8pL4v806CvAAAAABJRU5ErkJggr5GcgM="
+            }
+        },
+        {
+            "id": 1094014935,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    718,
+                    290
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLqQCzAyAwk1wt9SQZSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh7ujiGVMwxPbWR84CBgPPF+aeS72jInb15ZHUly3S9Q5rtHiE2AjUJKhle5qt0qyXMTrHv0NHttPKcvu1q/o1vXw37f39l0uQwzpZ6oxEBNI7B09XPZZ1TQhMAvs8z2A=="
+            }
+        },
+        {
+            "id": 1094014936,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    696,
+                    172
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIgrMjIDCQLQvK2Aym2AJ8QVyD9////pTfn3wWyGEuC/IIZHJ7dSANyFnq6OIZUzPGd4MjHZMjhOnNHQfKltbt3dmwUNy7ru7a4x/zFuVkz6n7KRiUy6jfW2HVk2KQc+1XKc3724zc7LNZNFn9ga82w7I1khvna3aYrolUTu0+t+n1l1/pTVhO2TDlQUhA7gy9PaLeWZNFLGcu9nLOFZrNcY4m+nZH1IdZytqxI8qrHqccL3x7/wWJs1XaM2ebyj4pLU9l7up2/G68v5/f7X+955hOz7/q+e1fS5GOAjmXwdPVzWeeU0AQAAcllBw=="
+            }
+        },
+        {
+            "id": 1094014937,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    761,
+                    100
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtL6QCzCyAwk1UO+NQIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcpI9XRxDKuaont3I22DA43KxPyggjcXtpBdPA8tixY1srLK5Xt4LZMpWzDtndXvCFsbDi20n9J3YJTpFRf79vYtHRUPSNlyN+ORp2CX1MzVo80dVb6nZ73fyvT7/5fJp26gJf9LqPZd/Ymx/am228pIsyDoGT1c/l3VOCU0AftBFcw=="
+            }
+        },
+        {
+            "id": 1094014938,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    775,
+                    13
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLWQCzOyAwk+1uX7gVSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5CR5ujiGVMypPbNR8IACR2uiDbe3e4GIe/fiVBE3j8yHPw8p32h7ZX0wfgnPz2X3Gpc18tnOuLQzb8NMG7VrB59dLFWoKXoSK/iT6d96rZkbmH3XGLur/FgRLvPj4CauNc3Hudmyo5L2bH2TbvdL5swSoG0Mnq5+LuucEpoAY7pHIQ=="
+            }
+        },
+        {
+            "id": 1094015871,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    651,
+                    986
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzHyAwk56uafwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh7ujiGVMzR7drIe8CA53BEyQlJy6XLLZc/FZn/wNCZIdTjdCMTS1BJI4dvyqfyjO1LVq47coO1fNPB/WIfp15ealLRZ9stbuWgfbn6p8tUoHEMnq5+LuucEpoAutA1SQ=="
+            }
+        },
+        {
+            "id": 1094015872,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    690,
+                    976
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKqQCzIyAwkE3Z//w2k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHHydHEMqZjjemah4AEDHueL87U13nhErl2cKtIvICFytciR5Z6nSwNLzKUlnlE76x9v03+pUHrKrN//5uHQQP7DeW82RdpLc2lVHTz2C+QKBk9XP5d1TglNAOV0NMs="
+            }
+        },
+        {
+            "id": 1094015873,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    685,
+                    946
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKaQCzAyAwkN94+cgFIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakOPl6eIYUjFH9exF3gMKHCwXsq0alC26Fk+9KHNU8M+XxR/3OAtVTHBgaPi2+oGqc80zxd5foZM10g4FX28139pqc8dzb4Gm6F+hTvkORpm6C3qspRe/JgFNZfB09XNZ55TQBAA64Doq"
+            }
+        },
+        {
+            "id": 1094015874,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    625,
+                    946
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtK6QMzPyAwkvTZceQKk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHH2dHEMqZijenoj7wEDHuaD4U+NlCtE1k89tzpzyRQtHoNNVz40sHN8OFE8s+u0ls/RCayT+N6rSi1XCmN32zxp7s/sPQs56nYw6GXafJ34GGgcg6ern8s6p4QmACYZNc0="
+            }
+        },
+        {
+            "id": 1094015875,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    583,
+                    914
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKGQMzDyAwkP247rgOk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyLH1dHEMqZiTnFB34MCP/wzMzJ/rBRou8hbMYvSQY7mocOD+gYT//xmZm2uYA37wB/B2tL1ovmjvsMZe4egnhbcMbZXGqgrbN2kDDWLwdPVzWeeU0AQA4isyOg=="
+            }
+        },
+        {
+            "id": 1094015876,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    646,
+                    871
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIWQMzPyAwku83neQAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcvw9XRxDKubo9mwUPKDAc2SK98RLygZebocXp07pmWDEejyZWWvNb6e2B1emPwrzlg06PkeLs9o5bqOEfeqvgzumTDyY0+u68OnuF1tuvLvdK3Q9kaHqm6XdupDUfqDRDJ6ufi7rnBKaAMXvPTM="
+            }
+        },
+        {
+            "id": 1094015877,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    705,
+                    875
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKqQMzPyAwkI9OnCAAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcpw8XRxDKubInt7Ie0BBwPliv4SC8gY11cWKqRN7JkxiSjz3/NHJVl4R3gcXn69iPetV9fagn9Utl/4pW5a9/W6zr2zZ4Tw9gTWaDy5KcE8Amsbg6ernss4poQkAcVE1mg=="
+            }
+        },
+        {
+            "id": 1094015878,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    593,
+                    838
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIGQCzIyAwkF9rsDQdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Ph4ujiGVMzR7dko2ODAwXLd0OCP0D4R78uXdFqFeHhlzj+unNT6lEHOTZPLinvSRunAx7lrLnn/8t2x+fuz5uaJr79durrg/O+whKSTBf865fP+GC5b0hJrBDSXwdPVz2WdU0ITANLaO58="
+            }
+        },
+        {
+            "id": 1094015879,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    629,
+                    815
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJqQMzDyAwkTY7E7gVSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Fh4ujiGVMxJTliRwND4iz3h0////Amf2Jmb//7/Xy/xz6DBY0IC74Sv8w+yuTC5Pjmo4qE6ISXh/39mhtqXKiJ+a78YAM1g8HT1c1nnlNAEAPCgMVI="
+            }
+        },
+        {
+            "id": 1094015880,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    654,
+                    826
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyQMzNyAwk96of+Q6k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyFH3dHEMqZiTnJDw739740G5zh/sKlJvJBoO9D38X2/AKOIswPPm/38Ghvy9UpIGr0xVgFoYPF39XNY5JTQBAMayKFY="
+            }
+        },
+        {
+            "id": 1094015881,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    612,
+                    868
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiQCzAyAwkjz8siwZSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh4ujiGVMzhPbWR94ACD+vFbg2NzYyLD6RNuGjEpRywa0NO3ceSs4H2K6I/dQQaVTwxKLRyVL76tbyNNX+X3fVkg2+s3wQkzY9PebwdaBaDp6ufyzqnhCYASoo0Ow=="
+            }
+        },
+        {
+            "id": 1094015882,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    558,
+                    856
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyIDYjM5DM7/5+HUixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQY+np4hhSMUf0pKEggwLP0QtfBJpCJrQx6ygsTGbv89+9R3Gh/wLvzRatl5c8uNR0pjN6kWzp4neNC1m//eDjUeiTf22pDjSEwdPVz2WdU0ITANj3MIU="
+            }
+        },
+        {
+            "id": 1094015883,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    558,
+                    838
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyQMzDyAwkl1xXKQJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Jh6ujiGVMxJTrA7AAR/GF3+MAv+b1R5/P8/v8S/K///H/zw37bjx3F+lX/MkZ8Umhh9Pvz/z8DwgV/2w8N3j64ADWDwdPVzWeeU0AQAB9k1Zg=="
+            }
+        },
+        {
+            "id": 1094015884,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    539,
+                    824
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzDyAwk3bjtuYEUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOYaeLo4hFXOSExL+Hz5w4M9/+xkZDYKf2CUkJG7wG/z5z6D073Nzx/+ERY2NC//Ze3ySZ2Z4XiT53uII/1+gZgZPVz+XdU4JTQAnUy5B"
+            }
+        },
+        {
+            "id": 1094015885,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    574,
+                    806
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyQCzAyAwkr5iZrQdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh7ujiGVMyRPb2Rt8FAwPliv0bQpoMbNU9m9EwSzGvQOOb+OSXSLJfB1z4yo8hr9SO3fPPOmyyXOPjONuyT23GnKncFe3mdaqdieODFSYeAxjF4uvq5rHNKaAIAjYQzww=="
+            }
+        },
+        {
+            "id": 1094015887,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    580,
+                    780
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzDyAwkL72d9hNIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakGPp6eIYUjFH9lQgL4OCAFOAT0JL96qLd3SKBHkKhCfOP872YAK3QuS3KL+eHKkrbqtW/nu6zUdhzaPVz5mzWrQidBSL44CGMHi6+rmsc0poAgDPnC+Z"
+            }
+        },
+        {
+            "id": 1094015888,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    518,
+                    758
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIqQCzAyAwkXVT9E4AUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOR6eLo4hFXNUT2zkPaDA43JRPjDAqMm99aJEq2DMsg07JD51L7/MaHrCxz3TYaLavZTuF4G290P7Hhf+YjseV5T+9NYctZflcccLPzOqH9K89KGkKQJoJoOnq5/LOqeEJgCT5ThV"
+            }
+        },
+        {
+            "id": 1094015889,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    578,
+                    745
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQMzDyAwk/R/MLwRSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Bh5ujiGVMyR7TLkYjDgOLLp55q6NRf0ra1kYq6qtggoNW4Qt9SouBZyse6lTo5+l3G8/k9GpYNyITuX7z4D1M3g6ernss4poQkAEn0raQ=="
+            }
+        },
+        {
+            "id": 1094015890,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    590,
+                    724
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ6QMzPyAwkF7bnPwdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Nh7ujiGVMxJTlgBVCDPzPy/XqGCYeG/Ayv5HTrteRIYluYkiCgHmE5gWvWbYcpv/osMi/kYVsorlH5VCHUIOM7A4DPZsGxttq480CgGT1c/l3VOCU0A3pwvvA=="
+            }
+        },
+        {
+            "id": 1094015891,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    503,
+                    908
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKqIDYjM5AUWW8qDaTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IsfV0cQypmJP84wADk8AnoKL6A0/+syd8Yna2nfCHcdKk/wcP/N/f+JG9+e///+wHn9Rz/Gw82CfpYmRg8M+egeGrncbPiLCNxkCDGDxd/VzWOSU0AQBiUjaY"
+            }
+        },
+        {
+            "id": 1094015892,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    468,
+                    893
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQCzIyAwkc5e27wFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Hh7ujiGVMyRPb2Rt8GBxzlwscgUyc6LTUeSJFWFuAPiSo95fv7CLc0w41DEpePZT6Ln+j98sM2pYK7m6adOJ0ruRbWZFL12rnv7rl497QNzqKeOUWtjHCPQWAZPVz+XdU4JTQC7ejkr"
+            }
+        },
+        {
+            "id": 1094015893,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    486,
+                    931
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKIDYjM5D8VqyXBKTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IMfN0cQypmKPbs5GXQYHn8KbSN5x7TmXatjoH8LpUbDCKCHzNuOXsFu/M+Et9QV9ub3D7++x7p/8Nq+9C6snCH792AU1g8HT1c1nnlNAEADkMMQU="
+            }
+        },
+        {
+            "id": 1094015894,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    539,
+                    967
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJGQCzAyAwk86buOw+k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyPH2dHEMqZgTe2ajYIMBj/PF84FLUljcErekmPRPEtQILtCwO26y40K2CnPoq4mXJr/avNP8RIf15U+fDcryv2dNuSEZ/o8zbvvGzB3ZByN8XtmYm9z889cZaCyDp6ufyzqnhCYAOoc8Ug=="
+            }
+        },
+        {
+            "id": 1094015895,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    457,
+                    972
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIKQMzPyAwk9/vFhwAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcuw9XRxDKuaIdm/kZVDkYfZf9MPQiGvxU/fUlikiHI93WNy0kuR6brYkS2bKLj0huZff2OeHOczjvNy08N8N55zkK8yc/xXSfss8kgUaxeDp6ueyzimhCQA5ZDCZ"
+            }
+        },
+        {
+            "id": 1094015897,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    400,
+                    913
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKaQCzAyAwkN94+cgFIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakOPj6eIYUjFHtecg7wEDDmZZQwf3ExqSa3umBVo5za8MKXzb4HBcMVFBLWYjVwxr2sOtfPH2gYc7bzSFby1hmCtte/HEc7/XP/NZY55wht/gP3la/d+WrupkoLkMnq5+LuucEpoAuAc4yA=="
+            }
+        },
+        {
+            "id": 1094015898,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    370,
+                    951
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyQCzMyAwkw8Kn2AAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDctw9XRxDKuaodm8UbDDgYXZ9OklQQnVxqqnbSY6FwQcXehw8Kq5vr1aTv6B3w+lvQo2X2g2C9ztuebh/8gWN5vbeNd78wtJv3z/TEzPeoqrRxTq5Hmgkg6ern8s6p4QmAA0oNNc="
+            }
+        },
+        {
+            "id": 1094015899,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    412,
+                    970
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzPyAwkQyqfhAMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcmw8XRxDKuYkJ/y4f4CB5f9/eYbJCvfqDdollY5wqEnOkDf4859B7b95w0n5Nwqf5O0Dtsktk0uZZDvjyf/jDAxMcuoOdiFHnIHmMHi6+rmsc0poAgAu+y+F"
+            }
+        },
+        {
+            "id": 1094015901,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    421,
+                    849
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKIDYjM5CU3OgaA6TYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IsfN0cQypmJOc8O8AA8uZ//8bTv5nP/CEX2H5v///2RRU+UV+nT/w4z8jc8AVOY9//w/wKP1ndr1xUKXZdgZLVgUDAx+nasei+YU2QJMYPF39XNY5JTQBACxMM1A="
+            }
+        },
+        {
+            "id": 1094015902,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    479,
+                    806
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKKQMzPyAwkA3pMsoAUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOfaeLo4hFXOSExIS/h9mYPn2X7rhSb3ASX611/9PmzP8tP/h+IRZ4Lc8c8efAwn8QecD2JVm/G+c+p9xsv2BJ+wrGBmuiSud/fDn1TegUQyern4u65wSmgAn6zV0"
+            }
+        },
+        {
+            "id": 1094015903,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    367,
+                    823
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQMzHyAwkmTTsqoAUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOVaeLo4hFXNMTx/kZRAQaX54X0VsYsSZArdKZQurCVqdan/9dBc0rHqZVXvIh+vc4oXnnG6J959VeFl3spCh9quS/X1Ru29AUxg8Xf1c1jklNAEAT8Yv9g=="
+            }
+        },
+        {
+            "id": 1094015904,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    332,
+                    893
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzPyAwkD8z3XQqk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHH0dHEMqZgjemoj7wEFAeeL/UFL9kyU0O0pk802YFIV7VtfOempv4rA9gt6LL5ScwKU7DbLvLTxvO4T9zOj9fuKWxd+MhYskpspM+vnT6BhDJ6ufi7rnBKaACWbM+U="
+            }
+        },
+        {
+            "id": 1094015905,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    300,
+                    948
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyQMzPyAwklZzD7gAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcsw8XRxDKubont4oyKDA4xRYpBlz0889WeT4hsMTJj8yvXPcJdf0eIa0oPMuh8mtEq0ZXzrrnPkm88+Yoly4P3ZvGNAEBk9XP5d1TglNAKA8LOU="
+            }
+        },
+        {
+            "id": 1094015906,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    298,
+                    976
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJiQCzIyAwkH9efOwCk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHHydHEMqZgjenIj7wEFHoaD/UEBVc0bOtydmy5KqCqrzOXmTu5a3ce+4riP4UQDL4v6T6cjTZI0/oau0twkVS7nbj4hn1nHR4p5ep2XE9A0Bk9XP5d1TglNAD7dMA8="
+            }
+        },
+        {
+            "id": 1094015907,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    201,
+                    919
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIqQCzMyAwkD220PQek2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyPH3dHEMqZije3Yjb4MBj8tFZxFNW6bFKSYSvYFGTadFOh4fX1S56V1O5KRfDJYLp+794lK9pCza03xiguWVD5ca/7/1XJEQOvvvlYiDrx7F6j9q4+9J0xNZWcwiCjSawdPVz2WdU0ITAPlQPLo="
+            }
+        },
+        {
+            "id": 1094015908,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    272,
+                    886
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKQMzHyAwkC57HnAFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Lh4ujiGVMxRPbWT94CBAPNBVpkVPOZJDkvneu0OCmlyYme7ViXh4yAkF5Z1v0rmQ5j9hszDgT5b3Nd99NPT5Xz45nm29G0lezsdpbtZrdzzgOYxeLr6uaxzSmgCAGuMMfo="
+            }
+        },
+        {
+            "id": 1094015909,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    432,
+                    767
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKmIDYjM5A0ZtzyGUixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQ4+Xp4hhSMUe1e6PgAQUeZvvpSqrKG8VijaQWGzh5iVuKcO/7ML9GqEDLwKvAx0rkd+uquLsXGrQ//T0gmLFtD+/RuXvPJFdvevvw1ux++ahYkw62ixenA01l8HT1c1nnlNAEAHhwNuw="
+            }
+        },
+        {
+            "id": 1094015910,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    450,
+                    714
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKWQCzIyAwkYzWnzQVSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5IR6ujiGVMwxPbNb8IACD3PAUw0NWye3xC0GUW4nOTQ1izhuHtGqef+HmWF3aEGPlx+7rbKh8JU1KyWsy6LY5ds5S641iNXtsbul2639kmfK34CdQqqNvxIZG//Y7DjC2ccEtIDB09XPZZ1TQhMAnlo38A=="
+            }
+        },
+        {
+            "id": 1094015911,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    360,
+                    765
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLaQCzIyAwk64qOewAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcnw9XRxDKuaontkoeMCAg9nhqUZMGku/VL6YWyLLdM2iQIcLfxr9GJ6t2Hh3Qv5hVhnPo+KSXenGTKXbW6Kl7Xn8JS6H7g7/3jU5xHf95m8P2K876WTIrDm1E2gwg6ern8s6p4QmAEEENuk="
+            }
+        },
+        {
+            "id": 1094015912,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    326,
+                    776
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzHyAwkuQ/PA5IMbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh7ujiGVMwRPblQtMGAx/Xi8c4Vb9xStmxiVJ7IK8Ec3fngyeRZ2XrF7Hb6l9RfCPVEs//TePGeQyd6w8lFv3T2NO3L4Paue6wtvcP/wKxnIOs8Xf1c1jklNAEAdQc0wQ=="
+            }
+        },
+        {
+            "id": 1094015913,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    337,
+                    746
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJqQMzPyAwkNwXoCwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDchw9XRxDKubYntrIe0CBh/Wis6aGZKOrBK9mzzGPKSLT6nLEM+OK2QPWO/vHF8vt9J21sPfDkuxjzlE9Wi8X3Z+cJ/KXmblTeXP4/IczgIYxeLr6uaxzSmgCAE5RMNs="
+            }
+        },
+        {
+            "id": 1094015914,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    294,
+                    728
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKaQCzAyAwkN94+cgFIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakBPs6eIYUjFH9exG3gMKPC4X559a6p4g4sa9+GIqr5uHVVdHt+8dm59LNh+0MrwcpnR5dkzQJw/mV598fPe6VL0wM7VQ79T3Ol1ScWDlnRW7+/8vqJ3z4yNjQ5tGsdy1U0VA4xk8Xf1c1jklNAEAejtAVA=="
+            }
+        },
+        {
+            "id": 1094015915,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    235,
+                    863
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKQMzPyAwkd+/uzwRSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh5ujiGVMyxPbNRsMGBh9nRkIVvP4vXwi3LTaZ/YTWQEWLkM/t4c9IzZf4ZTd5Wj05KyWpr3btlnVlbtZvx7ekv+/+5NYnLfVWbqb044D3QNAZPVz+XdU4JTQAcRDL3"
+            }
+        },
+        {
+            "id": 1094015916,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    180,
+                    890
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzPyAwkD8z3XQqk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyLH3dHEMqZgje3qjaIMBz5GApUUvBSVUFx/M2M6rm8oVxzf7WbjQkoaYs7dzIg4nPGstFfE3LW7nuJ90Y+scX7M/LXaT7kod7m+eMRVoFIOnq5/LOqeEJgD6cTPO"
+            }
+        },
+        {
+            "id": 1094015917,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    80,
+                    846
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ6QCzKyAwkmU/5SQEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcuI9XRxDKubont3Ie0CBh+WAu4ieMVO3S5LhkpTNKVN6HDwbP1XOviCz6b6Z2qOPcT2s+l1On1gnfagTlT1x+N8Ns8RV6g9b2YKlrHuWT7a5a2LefIj9V6rQPDuJaK83XyY3bqzX321qorKUmxFoFYOnq5/LOqeEJgDDZD8+"
+            }
+        },
+        {
+            "id": 1094015919,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    90,
+                    775
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIyQCzCyAwkl0w4vwtIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakOPn6eIYUjFHtmcj7wEFHhb+wCUpzQZakrya3Sks0zWV5pXHxBSuN1bfV6ea5mTPtEpM5OTlhe0JLPK6EVcO3FIrre/d5rVjx13Nxw+bls2Uf8YWdlj19JeZu1SAJjN4uvq5rHNKaAIAc483ww=="
+            }
+        },
+        {
+            "id": 1094015920,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    126,
+                    763
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJaQCzOyAwk3V/6ZwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcuI9XRxDKubontvNe8CAgyVgjcgUuYOLDWYZSy12OcWkF+yyT0ZglrqsfLTPpjda85jyFxzgYnzj0ziZ70Br82SXe7EOfI88YxRr1U+pXrqhkuTNlmi8TLT8wr/Lm+XerXhv8JvB0N9MNmKL/CmgVQyern4u65wSmgBX6j3E"
+            }
+        },
+        {
+            "id": 1094015921,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    220,
+                    742
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQMzHyAwkmTTsqoAUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBORqeLo4hFXOSfxxgYKl3OAJUZd/QIc/zFchInMAu6BDQ7HeiecoCIQbWU3JL/aqm7gTqYfB09XNZ55TQBAB8tCjk"
+            }
+        },
+        {
+            "id": 1094015922,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    182,
+                    756
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJJQGzKyAwkGx6sYQJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5LR4ujiGVMx5e2kjb6uBAHOAu2ZQGotb4kb91oMaRlzKS5Y4/Ihv7NjLfN12bspcIebzS6SNOts7Z7+ckjo1lTnEfFMHc/b8XQFxokEiE51FLFcd7dNc1hEa+mh2edtJOa263BlbeHrfBM8M4zXpXnuLRyXwbYCg/dW0XS4Xt8UqeX9x6w9MNHy60t7njZdO45n7MUD3MHi6+rmsc0poAgDFBVB/"
+            }
+        },
+        {
+            "id": 1094015923,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    247,
+                    808
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIKQMzHyAwkS4R6PgIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDckw8XRxDKubInjYUZVDgOXIhR3ZigHrEYSOmX1UFsf+mbAjZsCT7lMmEXwU+ixybt2Um7frgc4X530bZQLUHt8KB+hk8Xf1c1jklNAEAtwEvHQ=="
+            }
+        },
+        {
+            "id": 1094015924,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    286,
+                    804
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLCQCzIyAwkWcNYW4AUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOY6eLo4hFXNET27kPaDA43pQPXBJCkv/oSTBCxvFFltIL1niUGh3NPQ4b0imO3u1Yv4OpiCfsGK74qQTj6cUbFJx7P8qf0JfUnFm6QKQHQyern4u65wSmgA/mC+w"
+            }
+        },
+        {
+            "id": 1094015925,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    58,
+                    702
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJWQCzPyAwke0R83gEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcrw9XRxDKuYkb0hsYPr9vz6h5z9/gYGExBN7B8meFz3//9s7ZLI8ZuwpZDjUMNOJlcFEZPLFhix5ZmZ7Nmalo3zBh/kus6b8SW4wkjNgYNhZbnPlzL1t64DGMni6+rmsc0poAgAkpDUt"
+            }
+        },
+        {
+            "id": 1094015926,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    187,
+                    718
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzNyAwko/n4NwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcsw8XRxDKuYkJyTUHQCCP+2ND/k//2dr+9/+Xz7hx39Glz8T7Q8o/N//l4H5cb3CdEafE80cC6wYlpVKrvF/nyoPNIHB09XPZZ1TQhMAoeUxgA=="
+            }
+        },
+        {
+            "id": 1094015927,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    225,
+                    676
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLSQCzKyAwkewXY04AUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PboCkAzxdHEMq5qj2OHI1GAgwK9u+2Wi/yX+zv/AfjwP8FTocvZG72xtlJyW0r5/bOXGG29SNL6f7/5umrJPu9bVZQPsuh1VMx6LuhrzwW9ku064fmvVSfvMjlQrDDxcTgWYzeLr6uaxzSmgCAPfgOpQ="
+            }
+        },
+        {
+            "id": 1094015928,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    138,
+                    685
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIKQMzPyAwk9/vFhwAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcqw9XRxDKubonj7Iy6DA4XzRinP2i1c7OpUrvjisUK2qnPCB8QSroGudCVf1CxMH9/ZVIYbMYfK9Nlw7Fl7V396ncOPxDb7NQGMYPF39XNY5JTQBAKvZL0k="
+            }
+        },
+        {
+            "id": 1094015929,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    299,
+                    675
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIyQCzAyAwk7Rl71wAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcpw9XRxDKubIntrIecBAwPkiv15MGou+0IecmzqL73CE7zIILAn7KOBxx+KzwNH0NrGSk6FVD4M2zexcJG171O+/TUEGq3Kdg7bC17N3OVYBjWPwdPVzWeeU0AQAMIozCg=="
+            }
+        },
+        {
+            "id": 1094015930,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    330,
+                    687
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQMzPyAwkT5a8vQ+k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHH3dHEMqZgjemojb4MBD+vF7qAAI6bFKbpcLhK9vBGNgjG7Nvy4Eb7nVYK6dbfkg2BzqaqLys7bLB9nH1yk/eKTsv3THWJ7E0TO1vWkyGfsnpT3AWgkg6ern8s6p4QmAKcrNrk="
+            }
+        },
+        {
+            "id": 1094015931,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    370,
+                    686
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLSQCzIyAwkxRpdC4AUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOW6eLo4hFXN0T23kbTAQcA5U7poiqbg4xeRFxGu3nYJGDKee6zx8dHLTmqWnzPa0TdELXzHVUfBOUu+FO7ZXKoKO1+vssuxdlvmTUeyL8uf5Cu8rgCYyeLr6uaxzSmgCAE+4N9s="
+            }
+        },
+        {
+            "id": 1094015932,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    379,
+                    674
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtImQCzAyAwkk7vPdQAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDckI8XRxDKubo9mwUbDDgYX66eMEZDrnWiwkm/ZMEg4IKBIUOtv5/p8udoVMhNX++zCER3Qr2uRe8uG9P7vNV0X+Q0Mq80PmXceTviNbZK/+vD2x37exT/cWdYGfKUKHzKBVoPoOnq5/LOqeEJgBNyjpu"
+            }
+        },
+        {
+            "id": 1094015933,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    345,
+                    651
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKaQCzIyAwkq9rFS4EUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOb6eLo4hFXN0z27kPWDA4RKown+Ao2fSxTkXjbyMGoN3FewoSOCSu6QvkLm94JbOngNTH/U+LdK55y3Z2C44w3bRod6LBgWb6jzdF7XmrOmQt/9qpbnqWPBENqDBDJ6ufi7rnBKaALzGOOc="
+            }
+        },
+        {
+            "id": 1094015934,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    111,
+                    627
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJJQKzGyAwkWRfdMQdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5KR7ujiGVMw5e3Ej7wEFAWYHb00NycbAGzrnM3pcZjIdXdiZZOy475GKwzT5iuVmJ65kLsru4Lt1tWj1JFuXL+9rFnU8OqWlJux6c8uhFULS/6zv+UaE5b1atPJuQob5av7JZbv+Ot1m1e1++4FxymmDiuAC3p1AKxk8Xf1c1jklNAEAQNVIGw=="
+            }
+        },
+        {
+            "id": 1094015935,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    227,
+                    621
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLSQCzAyAwk796ddhVIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakOPi6eIYUjEn+UE6A9M/doVH/xkFPjY3Nv79/5+Nre2/gp3yhB+HE/43PPzPnKbwUd6npuaAwv//35knTGJXuKpw96vDUZ5vvAxnDijKeVgfEgCax+Dp6ueyzimhCQA6hDjl"
+            }
+        },
+        {
+            "id": 1094015936,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    154,
+                    588
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyQMzDyAwkl1xXKQJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Oh4ujiGVMxJTkj4V9/Q+PH/f36FR+w9GX8OMrCICjz6/5/ZvuFIPcvHRsYVzxgZUtvly5zb4qYD9TF4uvq5rHNKaAIAk9QrGg=="
+            }
+        },
+        {
+            "id": 1094015937,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    110,
+                    624
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiQMzFyAwkU9eELwNSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Ch4ujiGVMxJfvD/f3vj///2FmkJP44f4Fjy//BH5rb/7BIM0yNED5j1pysD1TJ4uvq5rHNKaAIAzPAncw=="
+            }
+        },
+        {
+            "id": 1094015938,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    75,
+                    577
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKiIDYjM5CsidmuDKTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3I0fN0cQypmJOcsML+wIH//5mb//yXF/gj2CGpJSFx4Af74f9pCv/4D8k3/GBk/vyfjcFqj4T5FJMVn4E6GTxd/VzWOSU0AQDH9yv7"
+            }
+        },
+        {
+            "id": 1094015939,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    124,
+                    532
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKSQCzIyAwkhUqm+gIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDchw9XRxDKubonjrIe0CBx/lif9WLiYJGWj3XAiUaGQWOOZ59eLLvzJHtQl9Vki+zL2Q8/3aj70X7KBf3xVKxf7qPXOwOl9n0X+6j4+qjrUDDGDxd/VzWOSU0AQBpRjYi"
+            }
+        },
+        {
+            "id": 1094015940,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    122,
+                    512
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLSQMzPyAwk9WPVZgMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcuw9XRxDKubInt4oyCAg4HLRXlngVUPQlmUmS2PYgxo3vsv5MGmu/9Hrdrsa1VyNijZotnn0pT63iM0+Zv3gssjXp4yG0nJtYVWz2oFGMXi6+rmsc0poAgBxsTHW"
+            }
+        },
+        {
+            "id": 1094015941,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    181,
+                    529
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtISQMzPyAwkj2TNnQGk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyDH1dHEMqZgje2KhIIMCD8tBZ0XNxqAgqbWBQkITT35ujtgs80DN4/ikpUoq7zdtOHlj2YZfsy6+Z/6tKL7ZtGQ7yDIGT1c/l3VOCU0Ay14uww=="
+            }
+        },
+        {
+            "id": 1094015942,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    225,
+                    522
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtK6QKzEyAwkPzYd4gFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5AR7ujiGVMxZe34jb4MDR2uiULe2ZOdWHdmzR1wlHr558eFB/pbpz7xP2D5wcV5lwm9xcHf2BtNKx7qXB3z/7Dd69lVo65zakGPS+m4n/Jrqew5VbJrxQIHf7bXR1V+/visDjWfwdPVzWeeU0AQAq+ZB8g=="
+            }
+        },
+        {
+            "id": 1094015943,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    186,
+                    490
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIiQMzDyAwkIw7x7wBSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Oh4ujiGVMxJnpCckDDhP/OR/44/GJn//+d3OMbeZv9GXuKfPcOj/wI6/EL//zMwrFwv+m5x0451QH0Mnq5+LuucEpoAYI0rPg=="
+            }
+        },
+        {
+            "id": 1094015944,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    258,
+                    486
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtI6QMzHyAwk8/Ry6oEUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOWaeLo4hFXOSE/6cZ2D681++YcV/hw/MToxH/89nD2KX+Nf4IyGT7Td/Qpesk6GzRhs/zxkF3huaDN6T9Dn1tBR5gSYweLr6uaxzSmgCAMmFKow="
+            }
+        },
+        {
+            "id": 1094015945,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    246,
+                    456
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIyIDYjM5Bs8JzzEkixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQY+bp4hhSMSf5wf+DBw4oABUxsv3+/9/e4A+78DeHR/zMyh0JPximpLMInpGXmOG4yeERY4cFgxrDWwN5W2XetttAExg8Xf1c1jklNAEArnkuuA=="
+            }
+        },
+        {
+            "id": 1094015946,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    327,
+                    473
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyIDYjM5DMrlN/BaTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IMfV0cQypmCN7ylCUQYGH+eLtCYHqD3jWnnhxINsj8t8E7oUtE/wm+zKuXrjDoNA4STo83qa+7RPj9a/yccsEdjQBDWDwdPVzWeeU0AQAtVgtfQ=="
+            }
+        },
+        {
+            "id": 1094015947,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    299,
+                    519
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyQMzDyAwkFyh98QdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Bh4ujiGVMxJTkj4V9/Q+Pf/f36FR/wdP9hVpP4bMjjKdmxI/vF/P6MLg2rCEXm2BdvkGYJb5Rb93LGfG6iXwdPVz2WdU0ITACPDLAM="
+            }
+        },
+        {
+            "id": 1094015948,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    337,
+                    542
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyIDYjM5DMrlN/BaTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3I0fd0cQypmJOcsCKBoenXf3uHI/YaifxKEhJvHhyxb/svL9F45P//eocj/AIfGZf8AGrmklni3+t0GKiVwdPVz2WdU0ITAMMmKrk="
+            }
+        },
+        {
+            "id": 1094015949,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    274,
+                    576
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIpQKzHyAwkn7zXkwVSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5JR6ujiGVMy5O2kj7wEFHhbZwICqlp5DGSczeg5xaK78MUPpYr2KWIe2X/7pfGlnY64EjkTPZSm7J3zevflZ0HfVd3muL9ZvjHVa4RSQ9HFCbmuFUNoX16czqvP4XaMOvU7Ypu3Se6dyyaTrFnyBbr4m7Afur+LY6WOYe/+ahsfyhZOLCoAOYPB09XNZ55TQBACUek3i"
+            }
+        },
+        {
+            "id": 1094015950,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    413,
+                    569
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtK6QMzPyAwkvTZceQKk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyDHzdHEMqZiT/OM8A9t/fgcNgYYgeYkbjlf42dw4WJneCHQJOhk6a1RysAZXMjiZNqy050l4BTTe6ZneChNn9YlAExg8Xf1c1jklNAEAQFMnbw=="
+            }
+        },
+        {
+            "id": 1094015951,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    440,
+                    599
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtI+QOzAyAwku2YzCwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDclZ4ujiGVMx5e2mjYKuCAMuFUg4OzcYgDV6vzSJeCioFEfwWB96Yf9C/sPydoTlTgtQD4SrJsB+rUj49MY5seSN5XK1/T7WKAevSxHiV/nMneKLZ5n6Zven6brWnW9dYdPL/XWj55/r5Xa8W/vlztsxi+8rwJ57vXabaXnSZXHLxPOfDwDQL3natTk/17zPY1n75/bullOfldi/vGXuWx7C85vrCvCHDXvj85OWH85V6XnOnCmX7HnUL5gC6mcHT1c9lnVNCEwBdo2bB"
+            }
+        },
+        {
+            "id": 1094015952,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    510,
+                    571
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtI2IDYjM5A8LzLfEkixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQY+3p4hhSMSf5x///zMzMh/+z8/xXZJjMOGk9+yV+Rx6BhBZDiQSeNIPHQOlvAWwu4sxHZDQWMy76+Z+fjeHCV4vNy9TmHgYaw+Dp6ueyzimhCQCk1C6s"
+            }
+        },
+        {
+            "id": 1094015953,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    518,
+                    667
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLBQGzAyAwkw2WubAdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5PR5ujiGVMy5e9FQqEWBh/XCfmfHl4IWXe6TbW9WiVhFe3O373fweCTpo+j/TDiN44L2p1fc3AInrHyeXbG7vPhOxEJ7+5vy6unPLv/KybIMODt9Sfvm30dOd507cHfOL+XsI7IVM8Trzt6W7XLtsjQ8vuhl1w7/bekxZySz5+2LXv7y1vG34SdTFB5Xn3tWI5HFW95fV7/VqJw5+7KIJtBlDJ6ufi7rnBKaAGD4XJk="
+            }
+        },
+        {
+            "id": 1094015954,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    430,
+                    500
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIxQCzFyAwkGRRWZgFJtgCfEFcg/f///6U3598FshhLgvyCGRye3UgDciZ7ujiGVMzxnWDId1hBgEV854Ivwu/UP24PYn2e7vGz4zPzEhM9gdnMPTtfu1XPsmV4ZZOo5sK9nHVS5oFlB2oaVx+QzXQTrNzBzJ8Rwcs6geXpstsPhZ3eTXgg1LJRPPT6pb/a3qKbXbl/Bk6o87D2uFe+JGBdxlWhh+u15/xqWfO1tuR7dfO7efq/zxxnOb9zWa3YtpwD/f2/mFWvJd9Ps9L4AvKEp6ufyzqnhCYAo1RczA=="
+            }
+        },
+        {
+            "id": 1094015955,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    383,
+                    472
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLaQGzGyAwkU25/Ogak2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyMnydHEMqZhz9sJGwQYFntbEHSJTeg4o3TOc1XNMY0fjUtbjk/ckPNzZkLlPKfPT7rOFRrsaXWeqLCiaLcXZpiExjyE+xqTOviaxSDKCZ9e88w/MDCZsWeF+aa8eq6r50xQFHjYvC5FI3W/lk5Zn7GXU13CW+NQzJRRoK4Onq5/LOqeEJgCfW0YR"
+            }
+        },
+        {
+            "id": 1094015956,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    441,
+                    428
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLBQGzEyAwkpa6U7gFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5OR6ujiGVMx5e+Egb4MCD+sFKb6ehxo9bdI7Ji0uYemT6YmXavzX3Mn9Q3+PSMbkLpYFXv6fPY/NjhaqfKu+YDPfj+rHrvP+tj7799MvTdwoRc/6dtv24xfXlBjKLAz8W/8iLuDEipQ3KTJ2N3Uzz2ydNkHa/oZfrd8xv89Aixk8Xf1c1jklNAEAkuJM0w=="
+            }
+        },
+        {
+            "id": 1094015957,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    327,
+                    403
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIuQKzGyAwk3R+uXwCk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyEn3dHEMqZiz97whX4MCD+sFKTa3fAVx02uLH/raOIULHbq+8C/Pu7KHqvYi+1Q6/A/5Sl5VPqesEtw+f4OuiUZPv8vK0ryH0v97w44fujZzrWnIhTPGMc8kg050rU6/v+j91FO66R2sU+VvuMo9KzOLFmg0fgS0ksHT1c9lnVNCEwDnJkZU"
+            }
+        },
+        {
+            "id": 1094015958,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    273,
+                    385
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyIDYjM5DM7/5+HUixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQo+fp4hhSMSc5IeFffcNDoCJ5hyP8Ehd/NDNyOLAoz0n4f+AAfxC7ilxDB7NCEyODD6P8thiu1TuBOhk8Xf1c1jklNAEA89sp6w=="
+            }
+        },
+        {
+            "id": 1094015959,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    156,
+                    463
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKCQMzHyAwkPyunfgdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Jh6ujiGVMzhPe7Iy6DAc/RC0SMLzslG2ZPbmN84OJn9e6iqy15xyVsk8MHcGE3/WynqC81nGnXxpx0X80ldOO8x0AAGT1c/l3VOCU0AoaoscA=="
+            }
+        },
+        {
+            "id": 1094015960,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    49,
+                    429
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJbgNiMkRlIhlQrLgJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5CR7ujiGVMx5e3kj7wEFAedAAVcvt4SJHmuOZfQc4pipcI73g6xmqkrMvkNFhdOFnqj0fEmskdx/c7Za1UTNS0fjetO/pVXt+Sy3vT79+fqJPyJV7b59+Hr0cWSv+Bcr/rLNz4+yV07rkJ8boC+w5nhHP9A6Bk9XP5d1TglNAJkNSAY="
+            }
+        },
+        {
+            "id": 1094015961,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    99,
+                    448
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLCQMzPyAwkbbrS8oEUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOeaeLo4hFXOSE/7cP3Dg33+Gw///8yv8MBAwtk9ISGBPqlNYZ3+AIejw//mNB//JC/xneMTMw1PGw8Ng8EDs9ipNlW6gEQyern4u65wSmgB65C60"
+            }
+        },
+        {
+            "id": 1094015962,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    231,
+                    362
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIyIDYjM5Bs8JzzEkixBfiEuALp////L705/y6QxVgS5BfM4PDsRhqQY+zp4hhSMUf19EZeBgUe5oPTNYLSnvZ0HWGayfC449H6TYyiLbcka89t4LnoMOvKPE/e4h3HbLmnyU7w6m/9B9TO4Onq57LOKaEJAIv4La4="
+            }
+        },
+        {
+            "id": 1094015963,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    353,
+                    387
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtI+QCzHyAwk98hnTQFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5KR4ujiGVMyZOmEj7wEFHhb5nR4nOXoOZZzM6JkkqKGpJMP1IzzIpWt19r97ZgmixXf2cpz3Z/HZISjM+1HRuiVn94z3P6ytlWfamj0JvSF+zeL1WsWClQ8vMAbuuCe4R9dHaH/BsaCTcXlTH7l/eLaA+z7QPgZPVz+XdU4JTQCeaESo"
+            }
+        },
+        {
+            "id": 1094015964,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    490,
+                    372
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJOQCzMyAwk5Tw8fwIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcqI8XRxDKubYnj3Iy6DIwXLAt+LOZCENUe/NU7QfcikUOQjY+xXEMqxY2L+rfrHxrmDOmy6/Zd/sW5YQf7LD++dEpyeS/plf7XZnJUvs3BH3UXnl1Yu31q6M8t0snvODsXy2k/Pjp1xlQFsYPF39XNY5JTQBAMOIP9M="
+            }
+        },
+        {
+            "id": 1094015965,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    593,
+                    488
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLhQKzGyAwkuyumegMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcjI8XRxDKuacPXea84CCAMsFQX65twovVdZmZjaaTBKyqeLY/XOjVQLXiTly3MY6BUcz21Rf3ZuzRap51uJVeXeb3j3a9dD7tqPC8vL4+Wue+LiZh9bPyKg/fP982KaayAetr7grpd4bl7LLP6liym6JbZtYeysGaCeDp6ufyzqnhCYArvtIwA=="
+            }
+        },
+        {
+            "id": 1094015966,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    566,
+                    425
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIeQFzEyAwkTx1iPQ+k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyJnj6eIYUjHn7eTdvIcNeFwydwSsFNzjuWWGYNWWnkmCIbsMSh76fxH4yLhpnueHFc86XL6qhLN+aVqprphhUtPLJpodPPmw2d0n+2PcLDI4Jz1aF9LAvzeH/TFP1NETnl2PMqMmpdRc+nvIvf9f5Fe1s0kTjl87uVrIIubi+W3TngtUNoRGt60+M5HD4PX33CVyuivUeW/dYbKoWHeidE6I8SntX/yfCzIL/R+fTAe6k8HT1c9lnVNCEwAtHWVi"
+            }
+        },
+        {
+            "id": 1094015967,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    501,
+                    386
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIbgFiakRlIPls03QBIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakNPp6eIYUjGndOJG3gMKPCy9GkFGTe6JJhK9gUZMqqxdyT7CM8+LK8y992Fb576uS5waXS/ZT/d+/PAv6YejfYxc95Xa6j3zz7JvY2KL+MvJmt+1uHve1PJlLxZHN87r9duflM9vpmPZHvls1Uy51W4Wz3dbrZB85LeU6Y8A85ylqg2lN0/svdZikNxT/D5sb9y62zkde6YvkAI6isHT1c9lnVNCEwDYL1fJ"
+            }
+        },
+        {
+            "id": 1094015968,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    385,
+                    322
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKBQGzHyAwkMx+n/gJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5DR7ujiGVMx5e2k3r5MhT2uisrim8aG7LTptJcZSi1t4g4IWyOgJ3bC3VQ3r8q+00OubmhgY1O7K/0OOfZ37Pj3t3CbpPbV1K/5uvTfvQ1Npd+cc5rcFrb7hv6/rv+IxP7Io89DMllMqFjnTb8je/LpDcGXB12uHlYWSol76Zv4/pRkU/rBJ0u/yvB/3HD5JFC7YCnQOg6ern8s6p4QmAKZxVZ4="
+            }
+        },
+        {
+            "id": 1094015969,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    289,
+                    315
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQCzIyAwkP6zoMwFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh6ujiGVMxJnvD/wIEDCv//s3f84FeTMzC40vyD51t9A4t1RwKDsBnP/4NH5AU+7l/I5vHn3+ED/+Q1GAwbf9qfMPjNxqDErRDqdC8kFGgYg6ern8s6p4QmAO8xNIo="
+            }
+        },
+        {
+            "id": 1094015970,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    341,
+                    286
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIngdiAkRlINk49Mx1IsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakFPh6eIYUjHn7ZWDvA0KAi4XDUUcOMsWze1cGtilWvAlQeL7uvjHd3fu04n0YPPs1lhsPuFgnsM2/mV+JSe0A0JXGohZ53nsVFRdcGOC3jenDceY//4s9l11RU41L2yCfMbe5Y2aRkZP3wdftFiyTtLPO09YqE5N60fAKR+t3X7TGD3utPIqLAK6gcHT1c9lnVNCEwC4Wkz6"
+            }
+        },
+        {
+            "id": 1094015971,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    584,
+                    311
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIZQCzIyAwkuf9XvwZSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5FR5ujiGVMzx7T/I22DAw9z764WxcsmUPrbFhl7uD26yKx3h49AKPbu0c+4CuR9zX8WXHCm973p3+QuRl7HMnEf/NtmZC06JvRKhtsvqlgKvScDCvi8GLZyXI5m9JujMclYv8S05FqHrs9ujLrsvzTK48o54eZek9ooZt7f81CtlVlrmL8pkd2g50BUMnq5+LuucEpoAprFMfQ=="
+            }
+        },
+        {
+            "id": 1094015972,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    584,
+                    278
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJGIDYjM5C8eHd9F5BiC/AJcQXS////X3pz/l0gi7EkyC+YweHZjTQgx8rTxTGkYk5yQsIGoAp7ZuaWvIZL7BMyFBLaL51hlzjgpPDrv7wGL8v3hSYBkwS9jA1OOJ8FKv5zmIHhhpdecrbwpR9AUxg8Xf1c1jklNAEAYFoxGA=="
+            }
+        },
+        {
+            "id": 1094015974,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    564,
+                    219
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKxQKzByAwklwWkfAJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5HR5ujiGVMxZe2Ej72EDHpYD4kErrrBdVLsYtTKp/1mgUZOXaKN9kuKnuVZrShgcbeU83nzQTGl4EvH+9hH1bX1vYzLUNzXnP3h4o/F301qLtkPPRM+77U/bz3aKX6ns44w22f/zqhy/JEzwCeU+LbxHR27SxapPmbETRD0bS3eXtbJynMmf13Ris+Yau5c6hTWM5c5B3z3ffP8DdBWDp6ufyzqnhCYAzfRbdg=="
+            }
+        },
+        {
+            "id": 1094015976,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    468,
+                    222
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJhQGzJyAwkp1n5WQMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcko9XRxDKua8vbSRt8GAh+XAdg0NY6ZuhVTDrh4xs5McmpoC/lyfZjRN6lvvNy0pushg3Z2CVJWXc+d8Tk3uY/V6YdewcDar2vtzPkUZtlePVxfJvdtZb+dVkjL1Jt/yT93mOkUH79xdYCW37d+1iC9v18Te3231vHp+l7D0Pe+9b8MnXQc6gMHT1c9lnVNCEwC3EU9V"
+            }
+        },
+        {
+            "id": 1094015977,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    482,
+                    219
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLuQKzCyAwkH8ptXQGk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyMn3dHEMqZiz9MJG3gYDHpYD7poaNxtymGYzLjb0civwFPzYsEF+RWHppjnlQg9WlTWGR6u+E3obpmSen5a1qdvxgKkUm/jF9q6q0k8/f251qbzVmPMj2MvF5oGIuGZZetHV1i5t23SrlYVn1V4W23VNOWHN0LrMtsrJ8YQV0GoGT1c/l3VOCU0ACLRIPg=="
+            }
+        },
+        {
+            "id": 1094015979,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    393,
+                    170
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKXgdiSkRlIThPrqQNSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5DR4ujiGVMx5e2WjYIsBj0tgNQdHbJN3YebzSxqtQgkeHDOij0z4tJ3xRoD+hCk5Xv6Sy45/zL2U59O9cb9haczNlHc/JbWNb3NMe3yiUSfufMalNJ8Sb0Ox9ZuPvp/79vT08GMiTpcdQ3bO1RO+3XU29HvISaWjEcrB53ec37oi8/7pmKX+Duptgn4yCTIrs4BuYfB09XNZ55TQBADQpFUT"
+            }
+        },
+        {
+            "id": 1094015980,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    627,
+                    183
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJuQKzAyAwkp/rOaQBSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5PR7ujiGVMxxnbCR96gCj0uvhoZko+u+I0kTE7b0HOLYv8Rh540Ea5FrnPutczqMbp68e/X+1WStxBVdH8qi+R7tUGfN3bxZ1rzj1M4jZ9/JhqhvZ6xVcn7j6SVsZHDiS9CHJe+Flk5WqJFmavqp9FD0zPKd7E8ebCi54Wel8vl6YOql89teTc9fqvVg41YtH1ef+F+/535k2jU/MHvhwul/gU5j8HT1c1nnlNAEAD+yX0w="
+            }
+        },
+        {
+            "id": 1094015981,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    547,
+                    120
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLzgFiHkRlIrvOc7Aak2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyFnr6eIYUjHn7KSNvCyKPCy9HByajUHr1nLHMb3k/jFN46lXQcVBzv0/L+xm3XP44Jrct11LvDdcOrtgr3hj2ooHAqJ8m9l/baoV2KXgpK4vY8yQ9fGm4Lu4g1Olbhsbv7itfcgp7/90rcmOqRN2xk6bwzC5t47xbXi5vJPsLUPJr4qKJ7b19vzP3cVv7BdU37HoLOtstoieO1P/5Lcl/z60o9KI7VCuuec1pQ2P5u5PURSR2p71XXzq8azTj2ZdewF0OIOnq5/LOqeEJgAcMmod"
+            }
+        },
+        {
+            "id": 1094015982,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    580,
+                    102
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtI6QMzPyAwklxbtvwWk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyPH1dHEMqZije3ojb4OBgPNF+aUeJzl6DmV0HsnQmSS4zke0WMykbtM7ngtlbnNj3S4lzOzMe+kzbRGr3ZUHQQFK8ttPWvnyzWt5Jysj/0ekV5zJ1oB9QXrNJqDBDJ6ufi7rnBKaABcJN4g="
+            }
+        },
+        {
+            "id": 1094015984,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    598,
+                    63
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ6QCzMyAwkr05eyw6k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyHH0dHEMqZgTetaQj0GBg/lAns3h/h8mcq+FZWQ9tILEdsdwLGw4wm3sveHkxUlr924IXsD5UF64NGYDZ3j6i/DEkNMW4jkWpm2Hoxf8ABrG4Onq57LOKaEJALyfMUY="
+            }
+        },
+        {
+            "id": 1094015985,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    677,
+                    81
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ2QCzCyAwk31vIhAMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcuI8XRxDKubYntvI22DAw3LAXTMojUXM8VTGBkZtQy+3BUs6/jyR7Vl9ObpOUuPHMhvGOMZ5cml9hiu9Tokt1PYKY8+JKym4lqMQ3dCe/OXiwlnvLnwqW7LfgH0D2wbjfaffsj4qsnPnzDTbCbSJwdPVz2WdU0ITAFVGPx4="
+            }
+        },
+        {
+            "id": 1094015986,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    674,
+                    23
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtL6QCzAyAwk9xzdMh1IsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakBPs6eIYUjFH9ZQhX4OCgMtFfw0NW6Hrm4o+pqnFHVEOyEuUEJ/zLHUS/5sjMtmNszRDzGMPrhAKuds1+2kk/wy/0htPjipmLpkuadikwXdtrv4i15+O/xhLYnT3tPTuXg80nsHT1c9lnVNCEwBq2Dv0"
+            }
+        },
+        {
+            "id": 1094015988,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    515,
+                    1
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKZQCzAyAwk9RMPFwAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcjI8XRxDKubEnt8oeECBgzWgSDPIqGlxyhaDqF1rHnJo6tqcYN8b7LyYn2WqBufZiWfqpkz9fuTuGp5Itbyzs/XDAvk38TumLwnMMbFif3hrdb+weGZApypf6AuHb5NuTDn2b88UcTeL0p/S+78wWv5wa3sk8BnkAAZPVz+XdU4JTQB3nUWA"
+            }
+        },
+        {
+            "id": 1094015989,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    519,
+                    45
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLqIDYjM5AUiHqqBqTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IMfF0cQypmJOckJDw5/6BAwf+/P8vr/JJvsOGR6XxAJ/XP3sGtUatVw0qHW0Tehw+sQe0/vnPz7AlSllp0uvaC0D9DJ6ufi7rnBKaAPgAL1k="
+            }
+        },
+        {
+            "id": 1094015990,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    467,
+                    55
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKQBzKyAwkxdYt+QGk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyInydHEMqZiTnLDh///+xof2AiYLJtlL/OA3YGC0FjrJo/zT3uAEs+cCr5RNjY0L//2Xbwt0EE5gV3v7/389g9r/Bs+EO41Ocjqsik+lHVTshTiFNrIf55vDIv2lnZHB+Y+93rkHFfOBtjB4uvq5rHNKaAIABc074g=="
+            }
+        },
+        {
+            "id": 1094015991,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    289,
+                    169
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ7gTiYkRlIfgif0gik2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyFnk6eIYUjHn7dW9vIcVRFgeiAcG7BOMUOFa7DjdcBPX4gs7t05h8xYTZ9ux+nLB098pdSkvDRZzNp/X1TrBpaCgUcD69JFAQUFBjUXKgs0/meNN2ATzL0x99GX2YY8S1W7dcK7XEUl5+qz+rNZA8L+nTqgidd2vp6q7X4lPbeIPXPais8n5yvrDP+TsmO2nfjfSXFN9Yvna4oDvpy2usvs2WExeudb371L5mKNuUauu/t4NdC2Dp6ufyzqnhCYAFqVi3w=="
+            }
+        },
+        {
+            "id": 1094015992,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    324,
+                    105
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJiQCzIyAwkH9efOwCk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyLHzdHEMqZgjenIj5wEDHteD7JohVS06SSeiNJv2RrldlNBi+RReePUjk3fZ30c2oj1eO1pUZoQUn1z5f8O/MvYImeQTUjGLe2QMgSYxeLr6uaxzSmgCAOocMn0="
+            }
+        },
+        {
+            "id": 1094015993,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    341,
+                    78
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIdQPyMkRlImnTFWwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcso8XRxDKua8vb6Rt8VAwOWiIwufZmPQHcm8t1Y7xGKYFk7UeeZRbrajJ2PelpPX18lIO/xVyLL5P/WiRVLi7i0lGTu3hpRptr78GrMtZEL3TDC4WX1t3qkjdskPnbwWTlEVfTPHdNqh9W9yauzuOiqnazl3yzyseMbuGW7f2rnXPRfoAgZPVz+XdU4JTQC8s1Dy"
+            }
+        },
+        {
+            "id": 1094015995,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    356,
+                    188
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiQMzNyAwk131oAVFsAT4hrkD6////S2/OvwtkMZYE+QUzODy7kQbkaHi6OIZUzEl+8P/+gQP//zML/GdMZntWz8PDU8rzX+KNxL///9mPKuyUZ1g8VzSE5dF3faAeBk9XP5d1TglNAAE7Kiw="
+            }
+        },
+        {
+            "id": 1094015997,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    177,
+                    89
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJVQJzHyAwkL12YqgWk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyCnzdHEMqZjz9upGwQYDHufAQp4DHPdY3JRnH9SQbJyk1K4ge+ni5R/lla6PTjE2fGwRm37Qy7Y/ROKEb0LibB6+diEua5Fdlmf4jF4ai92W/sG63FlU45/LtNTIb87epRda7x0M+8b8+7fM0YWKIhHqzLu3/Nf5lWPRIJ5nd92xyT4wsBHoAgZPVz+XdU4JTQBbwks2"
+            }
+        },
+        {
+            "id": 1094015998,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    377,
+                    35
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyQCzMyAwkgxa5MAIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcnw9XRxDKuaIntnIy6DI43yxf92CMxw5RYsP9h7T6HHwbHzkPev5iUnNvgfKHnWKiWjeEnxuJqtXNOfRi26Z7ullTLtL5Fg9zMUdu1lDf248Jz/zh8qkJsZQTqDBDJ6ufi7rnBKaALC7N6k="
+            }
+        },
+        {
+            "id": 1094016000,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    287,
+                    24
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJaQCzIyAwkJ25YUwak2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyAn0dHEMqZije/ogb4MBD7ODslxtWYtO04uMsxk9hzhkFVYVBn864dnHHHNip7mumQz34yt9XnYM7YHhl6zFF1+62uHsMHFl8SddJttJ0/o1pP9I/GXmD9X2sur5/xpoOIOnq5/LOqeEJgCMkTjx"
+            }
+        },
+        {
+            "id": 1094016001,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    212,
+                    132
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKyQNzEyAwkG3IDbwEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcqo8XRxDKua8vbRX8JCBRHPi06AdKcw2Xe6bra8tOi2xxLvzfdAHUTbFj5tZ2ruWbzzfG/+AQ9f8cuNPoyNTk9IP22QdNqk5o/LKc4rrE98lsy/a+rDpa/37/VRW6t5ahfYVD++LvxR88VRO4bue2OQwg4p/IUFzRETDn2Xty9+xXn3nZOtLLH/uhgJdweDp6ueyzimhCQB/3FPs"
+            }
+        },
+        {
+            "id": 1094016002,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    112,
+                    225
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiIDYjM5CsWJkuB6TYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3IMfR0cQypmCN60lCUQYHnyAUNZyl1fmkPDWnm9U+t/qg+FAnJ3f3tgtcC3tkLXO7+DW1s4t/0U5K9tzy5DaiZwdPVz2WdU0ITAHKtKeA="
+            }
+        },
+        {
+            "id": 1094016003,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    44,
+                    265
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKRQBzMyAwkz8VZdgEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcjw9XRxDKua8vbyRk0GBx+ViMZP7CY2+ZcrRUSznz7E4nmD4edXWQ3qCsPkkQYa7i2/q/Htz8FvEiU06U1a8devjCOFx+DqBf177/XgNPv0O3Ybsp5vLGECmuvq5rHNKaAIAOi83yw=="
+            }
+        },
+        {
+            "id": 1094016004,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    168,
+                    395
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzHyAwkuQ/PA5IMbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Jh5ujiGVMwRPWUoyKAgwHywZIpHhWaEs1TQBMeDBSqu206u3Ki6o1Fy2oSJWlsuHDY47NloH2dx7LdFg3ShRypPHsgGT1c/l3VOCU0ASi4rgA=="
+            }
+        },
+        {
+            "id": 1094016005,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    61,
+                    375
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLNQOzIyAwkTxS3zgJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5OR6ujiGVMx5e2kj7wEFAWYH5a4p9k5mJ/PFJHoDjdhE/Xr3d4ioyur5u7FxJnRtPMvw3NR5UddKlb41l5q32OQvZbxcWjGhwDn56imOqXpBXwQ1qjhctS1Ew8LqOl+3q0outfMqF0z47fJtw9P1Ty4slH4YZXOf48Daj0CLGTxd/VzWOSU0AQCZw0YV"
+            }
+        },
+        {
+            "id": 1094016006,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    36,
+                    390
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKiQCzEyAwk++6w5wIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDchw8XRxDKuaInt7Ie8CAh/mgedCOK24Xs+TOLq5gmeol3Ka5z4Kp5c6CR0HCevLld7Le3RRgjeSRXSb2cda8r/cZhD8zi0tKbTu2hmkG0CwGT1c/l3VOCU0AxekxYQ=="
+            }
+        },
+        {
+            "id": 1094016007,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    67,
+                    328
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJiIDYjM5Ccns2jAKTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3I0fd0cQypmCN6eCMvgwIP88F+DQ1JSbdUlukiggfnlJzhDj29nbuXWZfxvd3kFfF8inJNy8REt1z+MgOolcHT1c9lnVNCEwCk/CZM"
+            }
+        },
+        {
+            "id": 1094016008,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    201,
+                    217
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIiQCzIyAwkn3fJ/QVSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh4ujiGVMxJTnhgf+BAwP/Gxo//2dkqFbaxP/ov3/jjA3ub/Rl+iboN9gk/GIKS6xlWLGNcwbbij7zAf4akBQW8zMwMzCekj8m/sP0ONIvB09XPZZ1TQhMApmozWw=="
+            }
+        },
+        {
+            "id": 1094016010,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    156,
+                    185
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKQMzDyAwkbfX/HgdSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Jh6ujiGVMxJTkj48b+9sbHx5/96hUygWkaLnw5yLnIJ7JN4eASEND79t/cQczFr8GQT+NnOyPByv0JfWMKK6UADGDxd/VzWOSU0AQAoki28"
+            }
+        },
+        {
+            "id": 1094016011,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    55,
+                    187
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiQMzDyAwkN3/dshtIsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakKPh6eIYUjEnecLm/wcV/v+Xl/n8f0NyQgLDQ6u2/7wOf/7zi/xPSPj3n5HhYYhYS/jis45APQyern4u65wSmgCE1SyN"
+            }
+        },
+        {
+            "id": 1094016012,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    52,
+                    130
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtISQMzNyAwk43/f7wNSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Kh6ujiGVMxJTvjzv+Hh///yDn/4m/j/pCckbGBPqlT4by/S/OQfA4P2Ncnb94QblIEaGDxd/VzWOSU0AQC1RClE"
+            }
+        },
+        {
+            "id": 1094016013,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    90,
+                    38
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKWQJzLyAwkFU9GqwMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcto8XRxDKua8nbyR94gBD7NkzcRLyhUTj1dvZH9y0cjLzWPmoYp9ysEvjRwaNlz0VHhx7Ij0JfUFczZwGFkaTJx92MesvXNJjPBrw7IDd+5et0lwlnJwfDjp7p8kbb4NJzz/uMZ1fy+3qSoRP/vrwF6Vr0JBvOUHKk8yrjomblbWPEl3VWKIaVfXzcnhfxi9L9s5vs76lQd0EYOnq5/LOqeEJgCIk1eP"
+            }
+        },
+        {
+            "id": 1094016014,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    273,
+                    150
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtISQCzMyAwkN9TFVwAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcpw8XRxDKuaont7I22DA43qwPWjHF457Iukmboks00UC7dxEwuUYXUxr1ZZxb9KIXrPxZvsFn098jwprLJ35Xk34tdj0nPhDecmfRw96rgGaxuDp6ueyzimhCQD7RzKr"
+            }
+        },
+        {
+            "id": 1094016015,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    286,
+                    97
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQCzCyAwkV/bt/wuk2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyAnydHEMqZgj27ORt8GAh4U/MKCqpWfSxQXJPGEbjyhJNvaJCD6be0j955f/DuzTLBJ423UDhb6KPSr5+ejGjdZ1c/YylvFefXQy7LK269xVqluOLZ/92P7OUcWt7saVIDcweLr6uaxzSmgCAL9CPkU="
+            }
+        },
+        {
+            "id": 1094016016,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2022-11-10T13:22:05.380Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    391,
+                    116
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIqQMzHyAwka3/qdAMptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDckw9XRxDKuYkJyQk/DnPwPLmv7yBwQmgWkYXhxOPEyYxevxLTPjDENTiY2SfwKD1p99HjmEyL8P2rRqLGFepzgQawODp6ueyzimhCQAcWS2U"
+            }
+        },
+        {
+            "id": 1346325682,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:58:35.184Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    322,
+                    165
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJKIDYjM5D8VqyXBKTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3Isfd0cQypmKN7eqNogwEP88XXGrZObicz0kz6XWaaiHHxi+//2Lnwr4MX0+Jfucu+anPd17nUmFsyf9/+q03eRW43xIP41C4n7jj8AGgUg6ern8s6p4QmAMA+Mzw="
+            }
+        },
+        {
+            "id": 1346325689,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:58:47.822Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    562,
+                    619
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ6QCzKyAwkmU/5SQEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcrw8XRxDKuYkP/jPz8IuceAKM8dXZqe/iQyMbhxHGZZmBWismCSf0CXptLGeIfgT/4GQv4wbuv7zKnTJexg6+7BFfmB0kmUI/t/wSSCUgb3ZmDmPbW420FQGT1c/l3VOCU0A2xkwbw=="
+            }
+        },
+        {
+            "id": 1346325691,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:58:55.014Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    121,
+                    939
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKKQCzMyAwkVWZ86wJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5AR4ujiGVMxR7TnI22DAw9xb8eENR8+lsxluySJuLzYLhfbKfrJwfW6x40GmfXXRzFZFuRQtu5VtO6J5VRl1n/VqlU1xiLW4WyWae6bo8al3X5Rl69zPqFTqM+T2AM1m8HT1c1nnlNAEAJ7nOW8="
+            }
+        },
+        {
+            "id": 1346325692,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:01.435Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    268,
+                    927
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQCzAyAwkrb/ETgRSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Lh5ujiGVMyRPb2R94ABD/NB/6mGezoY10491BD+WUNKcSkXY4+I2PUJTxZuqvcTPmyouWPpk6xLRhM3T5jR6t+W5LjdVGcF+43fjNpXlUu8Dsw1B5rI4Onq57LOKaEJAFbiNbM="
+            }
+        },
+        {
+            "id": 1346325694,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:10.749Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    379,
+                    567
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLiQMzPyAwkTROPiQIptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDqfJ0cQypmCN7cqMgg4CA60Fz5QutQX7pGqGc4lw97znMolbNWSV7jr2/9RCXVNuehf9ni7zgq4z7yi3J6sd9fjXQAAZPVz+XdU4JTQABYio9"
+            }
+        },
+        {
+            "id": 1346325696,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:15.829Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    196,
+                    570
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIiIDYjM5CcPO+OLJBiC/AJcQXS////X3pz/l0gi7EkyC+YweHZjTQgx9jTxTGkYk5ygv2BAwf+MXT8Z/hYz8b27D+/RN2f/wc+xMt19DN/bOfn+eZgZy1gzGzo/JeZQapefOai05KZQO0Mnq5+LuucEpoAxaMsyQ=="
+            }
+        },
+        {
+            "id": 1346325699,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:29.395Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    337,
+                    206
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLCIDYjM5AsdDqeAqTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3I0fJ0cQypmJOc8P/4gQP//jMI2DMks9UpbGNPMvjP0Py3XuEz+4zTDClGDDMZGPYLh+nva/sE1MXg6ernss4poQkA1WIoEg=="
+            }
+        },
+        {
+            "id": 1346325706,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:41.165Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    670,
+                    253
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzHyAwk56uafwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Nh6ujiGVMxJTngAVMDY/LfeZ1LjX0ZmgQ/NJ38x8/D0/P9vbmBw4v9//kf//x8/wBDyg9GF6anEv/+MmswfJRnmLFB16l990BRoEIOnq5/LOqeEJgBu2zW4"
+            }
+        },
+        {
+            "id": 1346325710,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:49.740Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    254,
+                    282
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJ6QCzCyAwkT0ybux9IsQX4hLgC6f///y+9Of8ukMVYEuQXzODw7EYakBPr6eIYUjHHtfciZ4MDj7OyeYPyjo4LR/lszItFDrK+2yzfbvi2lqM1fJIJa4BVw9GzzE9mPOCfEb0i6gaTtvW9Bufm3IYgL4dGrebtC3Ykh/97IPm91f/aGfmXy6pSzW+zywmY5GbJhp4AWsTg6ernss4poQkA+Ys/7Q=="
+            }
+        },
+        {
+            "id": 1346325712,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T15:59:57.684Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    690,
+                    129
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzHyAwk56uafwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Jh7ujiGVMxJ3gCUZ2Y+XK/QMIE34RPjYX62tl/sPA4H+NRmHlRR9nnyn5HtN3vAVA6hFQ/+/7fnYbhRrPmDYf09F6ARDJ6ufi7rnBKaAEj6Lso="
+            }
+        },
+        {
+            "id": 1346325723,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:00:21.860Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    632,
+                    907
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJyQMzHyAwkmTTsqoAUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOTaeLo4hFXOSE/4cPHDgwI/9jC42CQk/fsufAKr/zy7wkd3pxP/7/9k1fi9uYzzx5/CBA/xKMxxZmm07Ev4wMqxzVrjAPHFJONAcBk9XP5d1TglNAAw3NVQ="
+            }
+        },
+        {
+            "id": 1346325752,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:01:24.953Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    71,
+                    529
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKSQMzPyAwktVd8Wwak2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diMNyDH3dHEMqZgje2ojL4MCD7PjYpEpPT5uycxhiU0S856pRK/fsORDE/PXsuc5C2b2T/y0/IC0j5tRXcyu3GiJg8Z5R8yBRjB4uvq5rHNKaAIAJLIupg=="
+            }
+        },
+        {
+            "id": 1346325755,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:01:30.550Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    114,
+                    405
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQCzEyAwkXxt+FQJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Lh7ujiGVMzx7dnIy6DIwyxb63iSo+dXzzGNngMMHMK7F1mqFtZE9DJ48BXPlP5RnnheReSJ1dE0sc/VafdX22lvFl0ZEDzvwUTXHefyVC8pmvraAY1k8HT1c1nnlNAEAPWSM7w="
+            }
+        },
+        {
+            "id": 1346325759,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:01:36.512Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    192,
+                    320
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJqQCzGyAwkp3XWOAAptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcqI9XRxDKubY9mzkbTAQOCKzdEFKi07TlKMTEkzcTnJoBrvIfNfMiJlzjm0do8reZ2p35Za0r4mb3b6tvOtE8y3PyRYz7Oa3FBmI/bRk/h1zMWGqfGSWhYhX4T2e/kd32Pu4NO7W7XmzDWgNg6ern8s6p4QmAETyP8E="
+            }
+        },
+        {
+            "id": 1346325773,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:01:51.333Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    681,
+                    52
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKKQCzCyAwkLeceMwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Lh5ujiGVMzxPbNR8IACD7NDqZ4x02KDWcZaygFBBR0eSxZU/laZL5jDcCJx+VKW3+YBoQtWOOh0bvlamigvfb2u6O6S+6rT5+6XZumTf7Zcf00N0EQGT1c/l3VOCU0Auis0Lw=="
+            }
+        },
+        {
+            "id": 1346325781,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:02:07.074Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    439,
+                    95
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzDyAwk3bjtuYEUW4BPiCuQ/v///9Kb8+8CWYwlQX7BDA7PbqQBOfqeLo4hFXOSExL+3z/wwf/ff8a2//8DOeoEGFPMDE78/8+cZMMg9F+igWXCQQaRRAaGX+5yW7V4aoSBWhk8Xf1c1jklNAEAaEAo3w=="
+            }
+        },
+        {
+            "id": 1346325782,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:02:14.164Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    456,
+                    319
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtJSQMzHyAwkuQ/PA5IMbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Fh7ujiGVMxJ3pDIwPSbXeHRf0aBj82Njv/+1ysAdbCxsaUJHEyob3jIz/ybse3/+casf//bBT8lqP7/KcmQ6ylr2bcjoxZkjaern8s6p4QmACs8Mlo="
+            }
+        },
+        {
+            "id": 1346325793,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:02:24.340Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    503,
+                    826
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLKQMzHyAwk56uafwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh7ujiGVMxxPbNQ8ICCgOvB4wpKmo1BQbcCb00tUlXwT/nUOGPGVO6YogMiIZm37X1XNZr0N4vZXJjLuT14itm2qp++5ybrTLFQO5n/cVMw0DgGT1c/l3VOCU0AoGw0tg=="
+            }
+        },
+        {
+            "id": 1346325802,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:02:30.952Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    131,
+                    876
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtIKQCzCyAwkr8Wv5QFSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Hh7ujiGVMyR7d7I22AgwNwroaBswJUd6HJSY80hjR4Hz8YdN34+0on+fkkxnjfqgnxyPbPeygnn3szf+GfihMXp91jKDS3eOt3rEMyfWySbbqqgwnbq2zagsQyern4u65wSmgARxTdK"
+            }
+        },
+        {
+            "id": 1346325804,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:02:41.357Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    492,
+                    103
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLyQMzPyAwk1ba1PQRSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Dh6ujiGVMxRPbWR94CCgPNF+aULzrAlipg59xzzmBLukt5zyebmpsZtFUuWyH4Rntsy/YGX2NGn3x6cf77Ac6rBYZZjiczBDgqRxuJLnYCGMXi6+rmsc0poAgCwSzUJ"
+            }
+        },
+        {
+            "id": 1346325828,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:03:00.374Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    590,
+                    460
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLGQMzHyAwkd3RvkwJSbAE+Ia5A+v///0tvzr8LZDGWBPkFMzg8u5EG5Hh5ujiGVMwxPb1RsEFBwOWivbODeBTX0kT2bS6a4U2KE1/LNdvvmH6HKcR2H7vv5XlF+69PsrvkyR1mavNpFctP0ei70ZEvMtV6Uyt/Msw6ZJxvL8xRDDSVwdPVz2WdU0ITAMOeNTY="
+            }
+        },
+        {
+            "id": 1346325886,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:04:26.528Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    274,
+                    596
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtLCIDYjM5AsdDqeAqTYAnxCXIH0////l96cfxfIYiwJ8gtmcHh2Iw3I0fd0cQypmJP8o76h8eF/ewU2I4cZH/8zs7HVKaTVHfjQ/pHx8P/vDn/km546dv03ZGBYVyqld8w2/ydQK4Onq5/LOqeEJgAQfy1V"
+            }
+        },
+        {
+            "id": 1346325909,
+            "classId": 11266127,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "ToughNut",
+            "createdAt": "2023-06-10T16:04:55.393Z",
+            "updatedAt": "2023-06-13T14:22:02.127Z",
+            "tags": [],
+            "classTitle": "Secondary Capillary",
+            "bitmap": {
+                "origin": [
+                    523,
+                    190
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKiQMzNyAwkV7GG2AEptgCfEFcg/f///6U3598FshhLgvyCGRye3UgDcjQ8XRxDKuYkJ2z4f+DAv//sTP//HDxwgO/IJ3uJf///Mxzhb5jR+PC/PBvDqv8if0OWT1gK1MPg6ernss4poQkAI6AtNw=="
+            }
+        },
+        {
+            "id": 1349128055,
+            "classId": 11266125,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2023-06-13T14:22:02.019Z",
+            "updatedAt": "2023-06-13T14:24:41.325Z",
+            "tags": [],
+            "classTitle": "Nail",
+            "points": {
+                "exterior": [
+                    [
+                        1000.0,
+                        0.0
+                    ],
+                    [
+                        848.0,
+                        0.0
+                    ],
+                    [
+                        850.0,
+                        70.0
+                    ],
+                    [
+                        828.0,
+                        86.0
+                    ],
+                    [
+                        850.0,
+                        124.0
+                    ],
+                    [
+                        804.0,
+                        158.0
+                    ],
+                    [
+                        800.0,
+                        183.0
+                    ],
+                    [
+                        815.0,
+                        207.0
+                    ],
+                    [
+                        811.0,
+                        221.0
+                    ],
+                    [
+                        775.0,
+                        237.0
+                    ],
+                    [
+                        771.0,
+                        286.0
+                    ],
+                    [
+                        799.0,
+                        301.0
+                    ],
+                    [
+                        772.0,
+                        316.0
+                    ],
+                    [
+                        767.0,
+                        342.0
+                    ],
+                    [
+                        783.0,
+                        380.0
+                    ],
+                    [
+                        771.0,
+                        428.0
+                    ],
+                    [
+                        786.0,
+                        441.0
+                    ],
+                    [
+                        774.0,
+                        497.0
+                    ],
+                    [
+                        773.0,
+                        535.0
+                    ],
+                    [
+                        799.0,
+                        559.0
+                    ],
+                    [
+                        776.0,
+                        579.0
+                    ],
+                    [
+                        772.0,
+                        611.0
+                    ],
+                    [
+                        801.0,
+                        635.0
+                    ],
+                    [
+                        803.0,
+                        649.0
+                    ],
+                    [
+                        782.0,
+                        658.0
+                    ],
+                    [
+                        799.0,
+                        683.0
+                    ],
+                    [
+                        802.0,
+                        705.0
+                    ],
+                    [
+                        785.0,
+                        710.0
+                    ],
+                    [
+                        788.0,
+                        727.0
+                    ],
+                    [
+                        814.0,
+                        750.0
+                    ],
+                    [
+                        800.0,
+                        770.0
+                    ],
+                    [
+                        809.0,
+                        797.0
+                    ],
+                    [
+                        837.0,
+                        825.0
+                    ],
+                    [
+                        835.0,
+                        842.0
+                    ],
+                    [
+                        811.0,
+                        842.0
+                    ],
+                    [
+                        819.0,
+                        871.0
+                    ],
+                    [
+                        827.0,
+                        894.0
+                    ],
+                    [
+                        850.0,
+                        905.0
+                    ],
+                    [
+                        850.0,
+                        922.0
+                    ],
+                    [
+                        833.0,
+                        928.0
+                    ],
+                    [
+                        834.0,
+                        945.0
+                    ],
+                    [
+                        846.0,
+                        955.0
+                    ],
+                    [
+                        866.0,
+                        970.0
+                    ],
+                    [
+                        887.0,
+                        982.0
+                    ],
+                    [
+                        880.0,
+                        999.0
+                    ],
+                    [
+                        1000.0,
+                        1000.0
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ],
+    "size": {
+        "height": 1000,
+        "width": 1000
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "tags": [],
+    "description": "",
+    "objects": [
+        {
+            "id": 1332471084,
+            "classId": 11266125,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2023-05-23T21:24:40.769Z",
+            "updatedAt": "2023-05-29T07:25:26.845Z",
+            "tags": [],
+            "classTitle": "Nail",
+            "points": {
+                "exterior": [
+                    [
+                        1000.0,
+                        0.0
+                    ],
+                    [
+                        927.0,
+                        0.0
+                    ],
+                    [
+                        919.0,
+                        52.0
+                    ],
+                    [
+                        909.0,
+                        80.0
+                    ],
+                    [
+                        910.0,
+                        104.0
+                    ],
+                    [
+                        898.0,
+                        132.0
+                    ],
+                    [
+                        900.0,
+                        158.0
+                    ],
+                    [
+                        891.0,
+                        186.0
+                    ],
+                    [
+                        889.0,
+                        268.0
+                    ],
+                    [
+                        888.0,
+                        311.0
+                    ],
+                    [
+                        864.0,
+                        390.0
+                    ],
+                    [
+                        880.0,
+                        430.0
+                    ],
+                    [
+                        872.0,
+                        469.0
+                    ],
+                    [
+                        879.0,
+                        484.0
+                    ],
+                    [
+                        866.0,
+                        550.0
+                    ],
+                    [
+                        855.0,
+                        594.0
+                    ],
+                    [
+                        864.0,
+                        621.0
+                    ],
+                    [
+                        850.0,
+                        643.0
+                    ],
+                    [
+                        849.0,
+                        663.0
+                    ],
+                    [
+                        857.0,
+                        678.0
+                    ],
+                    [
+                        842.0,
+                        700.0
+                    ],
+                    [
+                        848.0,
+                        749.0
+                    ],
+                    [
+                        847.0,
+                        787.0
+                    ],
+                    [
+                        853.0,
+                        797.0
+                    ],
+                    [
+                        841.0,
+                        823.0
+                    ],
+                    [
+                        855.0,
+                        876.0
+                    ],
+                    [
+                        852.0,
+                        902.0
+                    ],
+                    [
+                        842.0,
+                        914.0
+                    ],
+                    [
+                        851.0,
+                        947.0
+                    ],
+                    [
+                        858.0,
+                        1000.0
+                    ],
+                    [
+                        1000.0,
+                        1000.0
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 1335613743,
+            "classId": 11266126,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "n.litvinenko",
+            "createdAt": "2023-05-29T07:25:26.735Z",
+            "updatedAt": "2023-05-29T07:30:27.848Z",
+            "tags": [],
+            "classTitle": "Primary Capillary",
+            "bitmap": {
+                "origin": [
+                    775,
+                    15
+                ],
+                "data": "eJwB+QEG/olQTkcNChoKAAAADUlIRFIAAABuAAADTQEDAAAATEXZvQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAGhSURBVHic7ZtBTsMwEEUdeZFljuCj5GKoDuJi2XEMzA2yo4gQ47KJ31QyLRUSUv/bvVaxk3bGM0ld5yrC7KCJulCP0GH9vQZqpGZonzFvtLpQE3WmTlBekBD/iP4xQV8Qrb1Nku1S9anPVVr4o4fmfLk6o5E65vxcKeYR90O3URmcHcPCqBuo/gblUCuLA0O36OKgtbnIKxKWcaa+TdDcUlulr1Fn1HxPKvj3RJduUCa8Z9fpuR4UnS7Wnjr8pA5q6vra0IHnHLiiBXbKgYkTePmmXxdixyyqnyZTbmlbGYUDY/RM56amhppkiE+1dpzHm5WBJcbz0/AYV4i/AQ9ySgud6vfYy5abtCoHS47VSVeyJlbxPW7llf3guJTo3w+OE56/HE4H7PrgzmrOQD0rqi11Rt+pXVsXanJCCCGEEOIKYqqts88Z1oZmq7h9yt9N5K4zNCTqR+vm0XMic5KnVhZjOSGEEEIIIYQQQggh7pxo9m5gX0Tgj86nncG/1lfo5sZaj2Vmc17UkXqgcidTZ9T8xcH81SDVmq3OUG4LwUBfZ2tEu072UMEAAAAASUVORK5CYII0hO3s"
+            }
+        }
+    ],
+    "size": {
+        "height": 1000,
+        "width": 1000
+    }
+}
