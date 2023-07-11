@@ -20,9 +20,9 @@ import torchvision
 from torchvision import transforms, models
 
 
-CLASSES = (1, 2, 3) # ('Background', 'Nail', 'Primary Capillary', 'Secondary Capillary')
+#CLASSES = (1, 2, 3) # ('Background', 'Nail', 'Primary Capillary', 'Secondary Capillary')
 
-#CLASSES = (1, 2) # ('Background', 'Nail', 'Capillary')
+CLASSES = (1, 2) # ('Background', 'Nail', 'Capillary')
 
 TRAIN_VAL_TEST_RATIO = (8, 1, 1)
 
@@ -39,17 +39,19 @@ TRAIN_VAL_LOGS = 'train_val_logs.txt'
 
 TRAIN_BATCH_SIZE = 4 # 32
 VAL_BATCH_SIZE = 1 # 32
-LR1 = 0.0001
+LR1 = 1e-4
 LR2 = 1e-5
 LR3 = 1e-6
-NUM_OF_EPOCHS = 1 # 50 # 100 # 300
+NUM_OF_EPOCHS = 1 # 50 # 300
 FRAME_RESIZE = (1024, 1024)
 
 #ENCODER = 'resnet34' # 'se_resnext50_32x4d'
 #ENCODER_WEIGHTS = 'imagenet'
 ACTIVATION = 'sigmoid' # could be None for logits or 'softmax2d' for multiclass segmentation
 DEVICE = 'cuda:0'
-LOSS = torch.nn.CrossEntropyLoss() # smp.utils.losses.BCELoss()
+LOSS = 'focal_loss' # 'loss' # smp.utils.losses.BCELoss()
+SUBLOSS1 = 'ce_loss' # 'dice'
+SUBLOSS2 = 'pt' # 'bce'
 
 
 def get_all_imgs(imgs_path):
@@ -118,13 +120,20 @@ def save_augs(path, aug_dataset, augs_dir_name='augs', max_count=128):
 
 def reverse_transform(inp):
     inp = inp.numpy().transpose((1, 2, 0))
-    #mean = np.array([0.485, 0.456, 0.406])
-    #std = np.array([0.229, 0.224, 0.225])
-    #inp = std * inp + mean
+    mean = np.array([0.485, 0.456, 0.406])
+    std = np.array([0.229, 0.224, 0.225])
+    inp = std * inp + mean
     inp = np.clip(inp, 0, 1)
     inp = (inp * 255).astype(np.uint8)
-
     return inp
+
+
+def reverse_transform_labels_preds(inp):
+    inp = inp.numpy().transpose((1, 2, 0))
+    inp = np.clip(inp, 0, 1)
+    inp = (inp * 255).astype(np.uint8)
+    return inp
+
 
 
 def make_model_dir(models_path, model_name, params=""):
@@ -164,10 +173,20 @@ def get_preprocessing(preprocessing_fn):
 
     _transform = [
         ##albu.Lambda(image=preprocessing_fn),
-        #transforms.ToTensor(),
-        albu.Lambda(image=to_tensor, mask=to_tensor),
+        albu.Lambda(image=to_tensor, mask=to_tensor)
     ]
     return albu.Compose(_transform)
+
+
+def get_trans():
+    frame_trans = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]) # imagenet
+    ])
+    mask_trans = transforms.Compose([
+        transforms.ToTensor()
+    ])
+    return frame_trans, mask_trans
 
 
 def save_summary(model, path=MODELS_DIR, filename='summary.txt'):
@@ -214,6 +233,7 @@ class CapillariesSegDataset(Dataset):
             frames_names,
             classes=None,
             augmentation=None,
+            transform=None,
             preprocessing=None,
     ):
         self.frames_dir = frames_dir
@@ -226,6 +246,7 @@ class CapillariesSegDataset(Dataset):
         self.masks_paths = [os.path.join(self.masks_dir, mask) for mask in self.frames_names]
 
         self.augmentation = augmentation
+        self.transform = transform
         self.preprocessing = preprocessing
 
     def __getitem__(self, i):
@@ -236,23 +257,31 @@ class CapillariesSegDataset(Dataset):
         frame = cv2.resize(frame, FRAME_RESIZE, interpolation=cv2.INTER_AREA) # cv2.INTER_LINEAR)
         mask = cv2.resize(mask, FRAME_RESIZE, interpolation=cv2.INTER_NEAREST) # cv2.INTER_AREA)
 
-        frame = cv2.normalize(frame, None, 0.0, 1.0, cv2.NORM_MINMAX, dtype=cv2.CV_32F)
-        ##mask = mask.astype(np.float32)
-        # mask = cv2.normalize(mask, None, 0.0, 1.0, cv2.NORM_MINMAX, dtype=cv2.CV_32F)
+        ##frame = cv2.normalize(frame, None, 0.0, 1.0, cv2.NORM_MINMAX, dtype=cv2.CV_32F)
+        #mask = mask.astype(np.float32)
 
         frame = self.expand_greyscale_image_channels(frame)
         mask = self.mask_multi_hot_encoding(mask)
-        #self.save_mask(mask, self.frames_names[i], MHE_MASKS_DIR)
 
         # apply augmentations
         if self.augmentation:
             sample = self.augmentation(image=frame, mask=mask)
             frame, mask = sample['image'], sample['mask']
 
-        # apply preprocessing
         if self.preprocessing:
             sample = self.preprocessing(image=frame, mask=mask)
             frame, mask = sample['image'], sample['mask']
+
+        if self.transform:
+            frame = self.transform[0](frame)
+            mask = self.transform[1](mask)
+
+        # apply preprocessing
+        """
+        if self.preprocessing:
+            sample = self.preprocessing(image=frame, mask=mask)
+            frame, mask = sample['image'], sample['mask']
+        """
 
         return frame, mask
 
@@ -278,7 +307,7 @@ class CapillariesSegDataset(Dataset):
         grey_image_arr_3_channel = grey_image_arr.repeat(3, axis=2)
         return grey_image_arr_3_channel
 
-
+    """
     def mask_multi_hot_encoding(self, mask_tensor):
 
         nail_mask = np.copy(mask_tensor)
@@ -295,22 +324,20 @@ class CapillariesSegDataset(Dataset):
         sc_mask[sc_mask == CLASSES[2]] = 1
 
         return np.stack((nail_mask, pc_mask, sc_mask), axis=2).astype(np.uint8) # .astype(np.float32)
-
-
     """
+
     def mask_multi_hot_encoding(self, mask_tensor):
 
         nail_mask = np.copy(mask_tensor)
         capillary_mask = np.copy(mask_tensor)
 
-        nail_mask[nail_mask != CLASSES[0]] = 0
-        nail_mask[nail_mask == CLASSES[0]] = 1
+        nail_mask[nail_mask != 1] = 0
+        nail_mask[nail_mask == 1] = 1
 
-        capillary_mask[capillary_mask != CLASSES[1] and capillary_mask != CLASSES[2]] = 0
-        capillary_mask[capillary_mask == CLASSES[1] or capillary_mask == CLASSES[2]] = 1
+        capillary_mask[np.logical_not(np.isin(capillary_mask, [2, 3]))] = 0
+        capillary_mask[np.isin(capillary_mask, [2, 3])] = 1
 
-        return np.stack((nail_mask, capillary_mask), axis=2).astype(np.uint8)  # .astype(np.float32)
-    """
+        return np.stack((nail_mask, capillary_mask), axis=2).astype(np.float32) # astype(np.uint8)
 
 
 def convrelu(in_channels, out_channels, kernel, padding):
@@ -321,10 +348,10 @@ def convrelu(in_channels, out_channels, kernel, padding):
 
 
 class ResNetUNet(torch.nn.Module):
-    def __init__(self, n_class):
+    def __init__(self, n_class, backbone):
         super().__init__()
 
-        self.base_model = torchvision.models.resnet34(weights=torchvision.models.ResNet34_Weights.DEFAULT)
+        self.base_model = backbone # torchvision.models.resnet34(weights=torchvision.models.ResNet34_Weights.DEFAULT)
         self.base_layers = list(self.base_model.children())
 
         self.layer0 = torch.nn.Sequential(*self.base_layers[:3]) # size=(N, 64, x.H/2, x.W/2)
@@ -392,6 +419,7 @@ class ResNetUNet(torch.nn.Module):
 
 
 def dice_loss(pred, target, smooth=1.):
+
     pred = pred.contiguous()
     target = target.contiguous()
     intersection = (pred * target).sum(dim=2).sum(dim=2)
@@ -399,7 +427,7 @@ def dice_loss(pred, target, smooth=1.):
 
     return loss.mean()
 
-
+"""
 def calc_loss(pred, target, metrics, bce_weight=0.5):
     bce = torch.nn.functional.binary_cross_entropy_with_logits(pred, target)
 
@@ -408,11 +436,24 @@ def calc_loss(pred, target, metrics, bce_weight=0.5):
 
     loss = bce * bce_weight + dice * (1 - bce_weight)
 
-    metrics['bce'] += bce.data.cpu().numpy() * target.size(0)
-    metrics['dice'] += dice.data.cpu().numpy() * target.size(0)
-    metrics['loss'] += loss.data.cpu().numpy() * target.size(0)
+    metrics[SUBLOSS1] += dice.data.cpu().numpy() * target.size(0)
+    metrics[SUBLOSS2] += bce.data.cpu().numpy() * target.size(0)
+    metrics[LOSS] += loss.data.cpu().numpy() * target.size(0)
 
     return loss
+"""
+
+
+def calc_loss(pred, target, metrics):
+    ce_loss = torch.nn.functional.cross_entropy(pred, target, reduction='none')  # important to add reduction='none' to keep per-batch-item loss
+    pt = torch.exp(-ce_loss)
+    alpha = 1
+    gamma = 2
+    focal_loss = (alpha * (1 - pt) ** gamma * ce_loss).mean()  # mean over the batch
+    #metrics[SUBLOSS1] += 0 # ce_loss.data.cpu().numpy() * target.size(0)
+    metrics[SUBLOSS2] += 0 # pt.data.cpu().numpy() * target.size(0)
+    metrics[LOSS] += focal_loss.data.cpu().numpy() * target.size(0)
+    return focal_loss
 
 
 def print_metrics(metrics, epoch_samples, phase):
@@ -466,7 +507,7 @@ def train_model(model, optimizer, scheduler, checkpoint_path, num_epochs=NUM_OF_
                 epoch_samples += inputs.size(0)
 
             print_metrics(metrics, epoch_samples, phase)
-            epoch_loss = metrics['loss'] / epoch_samples
+            epoch_loss = metrics[LOSS] / epoch_samples
 
             if phase == 'train':
               scheduler.step()
@@ -479,7 +520,7 @@ def train_model(model, optimizer, scheduler, checkpoint_path, num_epochs=NUM_OF_
                 best_loss = epoch_loss
                 torch.save(model.state_dict(), checkpoint_path)
 
-            metrics_lists[phase].append({'loss': epoch_loss, 'dice': metrics['dice']/epoch_samples, 'bce': metrics['bce']/epoch_samples})
+            metrics_lists[phase].append({LOSS: epoch_loss, SUBLOSS1: metrics[SUBLOSS1]/epoch_samples, SUBLOSS2: metrics[SUBLOSS2]/epoch_samples})
 
         time_elapsed = time.time() - since
         print('{:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
@@ -507,12 +548,25 @@ def save_preds_metrics(preds_dir, frames_masks_preds):
 
     i = 0
     for mask in masks:
+        #mask_third_channel = mask[:, :, 1]
+        #mask = np.append(mask, np.atleast_3d(mask_third_channel), axis=2)
+        mask_third_channel = np.zeros((FRAME_RESIZE[0], FRAME_RESIZE[1], 1))
+        mask = np.append(mask, mask_third_channel, axis=2)
         cv2.imwrite(os.path.join(preds_dir, f'{str(i)}_mask.png'), mask)
+        for j in range(mask.shape[2]):
+            submask = mask[:, :, j]
+            submask_path = os.path.join(preds_dir, f'{str(i)}_mask_{j+1}.png')
+            cv2.imwrite(submask_path, submask)
+
         i += 1
 
     i = 0
     for pred in preds:
         pred_path = os.path.join(preds_dir, f'{str(i)}_pred.png')
+        #pred_third_channel = pred[:, :, 1]
+        #pred = np.append(pred, np.atleast_3d(pred_third_channel), axis=2)
+        pred_third_channel = np.zeros((FRAME_RESIZE[0], FRAME_RESIZE[1], 1))
+        pred = np.append(pred, pred_third_channel, axis=2)
         cv2.imwrite(pred_path, pred)
         preds_paths.append(pred_path)
 
@@ -552,7 +606,8 @@ if __name__ == '__main__':
         MASKS_DIR,
         list(train_frames),
         augmentation=get_training_augmentation(),
-        preprocessing=get_preprocessing(None), # get_preprocessing(preprocessing_fn),
+        transform=get_trans(),
+        #preprocessing=get_preprocessing(None),
         classes=CLASSES
     )
 
@@ -561,7 +616,8 @@ if __name__ == '__main__':
         MASKS_DIR,
         list(val_frames),
         augmentation=None,
-        preprocessing=get_preprocessing(None), # get_preprocessing(preprocessing_fn),
+        transform=get_trans(),
+        #preprocessing=get_preprocessing(None),
         classes=CLASSES
     )
 
@@ -577,7 +633,7 @@ if __name__ == '__main__':
         'val': val_loader
     }
 
-    model = ResNetUNet(len(CLASSES)).to(DEVICE)
+    model = ResNetUNet(len(CLASSES), backbone=torchvision.models.resnet34(weights=torchvision.models.ResNet34_Weights.DEFAULT)).to(DEVICE)
     save_summary(model)
     #del model
     model_path = make_model_dir(MODELS_DIR, type(model).__name__)
@@ -605,7 +661,8 @@ if __name__ == '__main__':
         MASKS_DIR,
         list(test_frames),
         augmentation=None,
-        preprocessing=get_preprocessing(None),
+        transform=get_trans(),
+        #preprocessing=get_preprocessing(None),
         classes=CLASSES
     )
 
@@ -621,16 +678,16 @@ if __name__ == '__main__':
     # Predict
     pred = model(inputs)
     # The loss functions include the sigmoid function.
-    pred = torch.sigmoid(pred)
+    #pred = torch.sigmoid(pred) # !!!!
     pred = pred.data.cpu()#.numpy()
     print(f'pred.shape: {pred.shape}')
 
     # Change channel-order and make 3 channels for matplot
     input_images_rgb = [reverse_transform(x) for x in inputs.cpu()]
     #print(f'type(input_images_rgb): {type(input_images_rgb)}')
-    input_labels_rgb = [reverse_transform(x) for x in labels.cpu()]
+    input_labels_rgb = [reverse_transform_labels_preds(x) for x in labels.cpu()]
     #print(f'type(input_labels_rgb): {type(input_labels_rgb)}')
-    input_preds_rgb = [reverse_transform(x) for x in pred]
+    input_preds_rgb = [reverse_transform_labels_preds(x) for x in pred]
     #print(f'type(input_preds_rgb): {type(input_preds_rgb)}')
 
     # Map each channel (i.e. class) to each color
@@ -642,85 +699,46 @@ if __name__ == '__main__':
     preds_paths = save_preds_metrics(preds_dir, inputs_labels_pred)
     print(f'len(preds_paths) : {len(preds_paths)}')
 
-    train_logs = {'bce': [], 'dice': [], 'loss': []}
-    valid_logs = {'bce': [], 'dice': [], 'loss': []}
+    train_logs = {SUBLOSS2: [], SUBLOSS1: [], LOSS: []}
+    valid_logs = {SUBLOSS2: [], SUBLOSS1: [], LOSS: []}
 
     for epoch in metrics_lists['train']:
-        train_logs['loss'].append(epoch['loss'])
-        train_logs['bce'].append(epoch['bce'])
-        train_logs['dice'].append(epoch['dice'])
+        train_logs[LOSS].append(epoch[LOSS])
+        train_logs[SUBLOSS2].append(epoch[SUBLOSS2])
+        train_logs[SUBLOSS1].append(epoch[SUBLOSS1])
 
     for epoch in metrics_lists['val']:
-        valid_logs['loss'].append(epoch['loss'])
-        valid_logs['bce'].append(epoch['bce'])
-        valid_logs['dice'].append(epoch['dice'])
+        valid_logs[LOSS].append(epoch[LOSS])
+        valid_logs[SUBLOSS2].append(epoch[SUBLOSS2])
+        valid_logs[SUBLOSS1].append(epoch[SUBLOSS1])
 
     # Plot training & validation BCE loss values
     plt.figure(figsize=(45, 10))
     plt.subplot(131)
-    plt.plot(train_logs['bce'])
-    plt.plot(valid_logs['bce'])
-    plt.title('Model BCE loss')
-    plt.ylabel('BCE')
+    plt.plot(train_logs[SUBLOSS2])
+    plt.plot(valid_logs[SUBLOSS2])
+    plt.title(f'Model {SUBLOSS2} loss')
+    plt.ylabel(SUBLOSS2)
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Val'], loc='upper left')
 
     # Plot training & validation DICE loss values
     plt.subplot(132)
-    plt.plot(train_logs['dice'])
-    plt.plot(valid_logs['dice'])
-    plt.title('Model DICE loss')
-    plt.ylabel('DICE')
+    plt.plot(train_logs[SUBLOSS1])
+    plt.plot(valid_logs[SUBLOSS1])
+    plt.title(f'Model {SUBLOSS1} loss')
+    plt.ylabel(SUBLOSS1)
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Val'], loc='upper left')
 
     # Plot training & validation loss values
     plt.subplot(133)
-    plt.plot(train_logs['loss'])
-    plt.plot(valid_logs['loss'])
-    plt.title('Model loss')
-    plt.ylabel('Loss')
+    plt.plot(train_logs[LOSS])
+    plt.plot(valid_logs[LOSS])
+    plt.title(f'Model {LOSS}')
+    plt.ylabel(LOSS)
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Val'], loc='upper left')
 
     train_val_plot_path = os.path.join(model_path, "train_val_plot.png")
     plt.savefig(train_val_plot_path, bbox_inches='tight')
-
-    """
-    unet = smp.Unet()
-    pspnet = smp.PSPNet()
-    fpn = smp.FPN()
-    linknet = smp.Linknet()
-    pan = smp.PAN()
-
-    current_model = pan
-    model_name = type(current_model).__name__
-
-    metrics = [
-        Accuracy(threshold=0.5, activation=None)  # activation='sigmoid' # activation='tanh')
-    ]
-
-    optimizer = torch.optim.Adam([
-        dict(params=current_model.parameters(), lr=LR1)
-    ])
-
-    model_path = make_model_dir(MODELS_DIR, model_name, f'{NUM_OF_EPOCHS}_{ACTIVATION}_{type(LOSS).__name__}_{type(optimizer).__name__}_{type(metrics[0]).__name__}')
-    print(f'model_path: {model_path}')
-    best_model_path = os.path.join(model_path, BEST_MODEL)
-
-    saved_augs = save_augs(DATA_DIR, train_aug_dataset)
-    print(f'saved_augs: {saved_augs}')
-    """
-
-    """
-    aug_dataset = CapillariesSegDataset(
-        FRAMES_DIR,
-        MASKS_DIR,
-        train_frames,
-        augmentation=get_training_augmentation(),
-        classes=CLASSES
-    )
-
-    saved_augs = save_augs(DATA_DIR, aug_dataset)
-    print(f'saved_augs: {saved_augs}')
-    """
