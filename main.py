@@ -9,6 +9,7 @@ import numpy as np
 import os
 import random
 import time
+import timm
 import torch
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
@@ -21,10 +22,9 @@ from torchvision import transforms, models
 
 
 #CLASSES = (1, 2, 3) # ('Background', 'Nail', 'Primary Capillary', 'Secondary Capillary')
-
 CLASSES = (1, 2) # ('Background', 'Nail', 'Capillary')
 
-TRAIN_VAL_TEST_RATIO = (8, 1, 1)
+TRAIN_VAL_TEST_RATIO = (22, 6, 1) # (8, 1, 1)
 
 DIR_PATH = os.path.dirname(__file__)
 CSD_PATH = os.path.join(DIR_PATH, 'capillaries_seg_data')
@@ -38,20 +38,19 @@ BEST_MODEL = 'best_model.pth'
 TRAIN_VAL_LOGS = 'train_val_logs.txt'
 
 TRAIN_BATCH_SIZE = 4 # 32
-VAL_BATCH_SIZE = 1 # 32
+VAL_BATCH_SIZE = 1 # 2 # 32
+BATCH_SIZE = 4 # 8 # 2
 LR1 = 1e-4
 LR2 = 1e-5
 LR3 = 1e-6
-NUM_OF_EPOCHS = 1 # 50 # 300
+NUM_OF_EPOCHS = 200 # 150 # 50 # 300
 FRAME_RESIZE = (1024, 1024)
 
-#ENCODER = 'resnet34' # 'se_resnext50_32x4d'
-#ENCODER_WEIGHTS = 'imagenet'
 ACTIVATION = 'sigmoid' # could be None for logits or 'softmax2d' for multiclass segmentation
 DEVICE = 'cuda:0'
-LOSS = 'focal_loss' # 'loss' # smp.utils.losses.BCELoss()
-SUBLOSS1 = 'ce_loss' # 'dice'
-SUBLOSS2 = 'pt' # 'bce'
+LOSS = 'loss' # 'focal_loss' # smp.utils.losses.BCELoss()
+SUBLOSS1 = 'dice_loss' # 'ce_loss''
+SUBLOSS2 = 'bce_loss' # 'pt'
 
 
 def get_all_imgs(imgs_path):
@@ -85,10 +84,6 @@ def get_train_val_test_frames(frames_path, ratio=TRAIN_VAL_TEST_RATIO):
 
 def save_augs(path, aug_dataset, augs_dir_name='augs', max_count=128):
     saved_frames = 0
-    #if os.path.exists(path) and os.path.isdir(path) and len(os.listdir(path)) > 0:
-    #    dataset_utils.clean_dir(path)
-    #else:
-
     aug_frames_dir = os.path.join(path, augs_dir_name, 'frames')
     aug_masks_dir = os.path.join(path, augs_dir_name, 'masks')
     os.makedirs(aug_frames_dir, exist_ok=True)
@@ -128,15 +123,14 @@ def reverse_transform(inp):
     return inp
 
 
-def reverse_transform_labels_preds(inp):
+def reverse_transform_masks_preds(inp):
     inp = inp.numpy().transpose((1, 2, 0))
     inp = np.clip(inp, 0, 1)
     inp = (inp * 255).astype(np.uint8)
     return inp
 
 
-
-def make_model_dir(models_path, model_name, params=""):
+def make_model_dir(models_path, model_name, params=''):
     model_dir = os.path.join(models_path, model_name, params)
     os.makedirs(model_dir, exist_ok=True)
     dataset_utils.clean_dir(model_dir)
@@ -155,9 +149,6 @@ def get_training_augmentation():
 
 def to_tensor(x, **kwargs):
     return x.transpose(2, 0, 1).astype(np.float32)
-
-
-#preprocessing_fn = smp.encoders.get_preprocessing_fn(ENCODER, ENCODER_WEIGHTS)
 
 
 def get_preprocessing(preprocessing_fn):
@@ -323,7 +314,7 @@ class CapillariesSegDataset(Dataset):
         sc_mask[sc_mask != CLASSES[2]] = 0
         sc_mask[sc_mask == CLASSES[2]] = 1
 
-        return np.stack((nail_mask, pc_mask, sc_mask), axis=2).astype(np.uint8) # .astype(np.float32)
+        return np.stack((nail_mask, pc_mask, sc_mask), axis=2).astype(np.float32) # astype(np.uint8)
     """
 
     def mask_multi_hot_encoding(self, mask_tensor):
@@ -427,13 +418,12 @@ def dice_loss(pred, target, smooth=1.):
 
     return loss.mean()
 
-"""
-def calc_loss(pred, target, metrics, bce_weight=0.5):
-    bce = torch.nn.functional.binary_cross_entropy_with_logits(pred, target)
 
+def calc_loss(pred, target, metrics, bce_weight=0.5):
+
+    bce = torch.nn.functional.binary_cross_entropy_with_logits(pred, target)
     pred = torch.sigmoid(pred)
     dice = dice_loss(pred, target)
-
     loss = bce * bce_weight + dice * (1 - bce_weight)
 
     metrics[SUBLOSS1] += dice.data.cpu().numpy() * target.size(0)
@@ -441,19 +431,21 @@ def calc_loss(pred, target, metrics, bce_weight=0.5):
     metrics[LOSS] += loss.data.cpu().numpy() * target.size(0)
 
     return loss
+
+
 """
-
-
 def calc_loss(pred, target, metrics):
+    pred = torch.sigmoid(pred)
     ce_loss = torch.nn.functional.cross_entropy(pred, target, reduction='none')  # important to add reduction='none' to keep per-batch-item loss
     pt = torch.exp(-ce_loss)
     alpha = 1
     gamma = 2
     focal_loss = (alpha * (1 - pt) ** gamma * ce_loss).mean()  # mean over the batch
-    #metrics[SUBLOSS1] += 0 # ce_loss.data.cpu().numpy() * target.size(0)
+    metrics[SUBLOSS1] += 0 # ce_loss.data.cpu().numpy() * target.size(0)
     metrics[SUBLOSS2] += 0 # pt.data.cpu().numpy() * target.size(0)
     metrics[LOSS] += focal_loss.data.cpu().numpy() * target.size(0)
     return focal_loss
+"""
 
 
 def print_metrics(metrics, epoch_samples, phase):
@@ -469,8 +461,9 @@ def train_model(model, optimizer, scheduler, checkpoint_path, num_epochs=NUM_OF_
     metrics_lists = {'train': [], 'val': []}
 
     for epoch in range(num_epochs):
+        print('=' * 50)
         print(f'Epoch {epoch+1}/{num_epochs}')
-        print('-' * 10)
+        print('-' * 50)
 
         since = time.time()
 
@@ -510,7 +503,7 @@ def train_model(model, optimizer, scheduler, checkpoint_path, num_epochs=NUM_OF_
             epoch_loss = metrics[LOSS] / epoch_samples
 
             if phase == 'train':
-              scheduler.step()
+              scheduler.step(epoch_loss) # scheduler.step()
               for param_group in optimizer.param_groups:
                   print(f"LR: {param_group['lr']}")
 
@@ -532,54 +525,6 @@ def train_model(model, optimizer, scheduler, checkpoint_path, num_epochs=NUM_OF_
     return model, metrics_lists
 
 
-def save_preds_metrics(preds_dir, frames_masks_preds):
-    preds_paths = []
-    if os.path.exists(preds_dir) and os.path.isdir(preds_dir) and len(os.listdir(preds_dir)) > 0:
-        dataset_utils.clean_dir(preds_dir)
-    else:
-        os.makedirs(preds_dir, exist_ok=True)
-
-    frames, masks, preds = frames_masks_preds
-
-    i = 0
-    for frame in frames:
-        cv2.imwrite(os.path.join(preds_dir, f'{str(i)}_frame.png'), frame)
-        i += 1
-
-    i = 0
-    for mask in masks:
-        #mask_third_channel = mask[:, :, 1]
-        #mask = np.append(mask, np.atleast_3d(mask_third_channel), axis=2)
-        mask_third_channel = np.zeros((FRAME_RESIZE[0], FRAME_RESIZE[1], 1))
-        mask = np.append(mask, mask_third_channel, axis=2)
-        cv2.imwrite(os.path.join(preds_dir, f'{str(i)}_mask.png'), mask)
-        for j in range(mask.shape[2]):
-            submask = mask[:, :, j]
-            submask_path = os.path.join(preds_dir, f'{str(i)}_mask_{j+1}.png')
-            cv2.imwrite(submask_path, submask)
-
-        i += 1
-
-    i = 0
-    for pred in preds:
-        pred_path = os.path.join(preds_dir, f'{str(i)}_pred.png')
-        #pred_third_channel = pred[:, :, 1]
-        #pred = np.append(pred, np.atleast_3d(pred_third_channel), axis=2)
-        pred_third_channel = np.zeros((FRAME_RESIZE[0], FRAME_RESIZE[1], 1))
-        pred = np.append(pred, pred_third_channel, axis=2)
-        cv2.imwrite(pred_path, pred)
-        preds_paths.append(pred_path)
-
-        for j in range(pred.shape[2]):
-            subpred = pred[:, :, j]
-            subpred_path = os.path.join(preds_dir, f'{str(i)}_pred_{j+1}.png')
-            cv2.imwrite(subpred_path, subpred)
-
-        i += 1
-
-    return preds_paths
-
-
 def save_logs(logs_file, metrics_lists=None):
     saved = False
     if metrics_lists is not None:
@@ -590,115 +535,68 @@ def save_logs(logs_file, metrics_lists=None):
     return saved
 
 
-if __name__ == '__main__':
-    dataset_utils.test_cuda()
-    n_cpu = os.cpu_count()
-    print(f'n_cpu: {n_cpu}')
+def save_predictions(loader, model, preds_path):
+    frames_paths = []
+    masks_paths = []
+    preds_paths = []
+    if os.path.exists(preds_path) and os.path.isdir(preds_path) and len(os.listdir(preds_path)) > 0:
+        dataset_utils.clean_dir(preds_path)
+    else:
+        os.makedirs(preds_path, exist_ok=True)
+    model.eval()
+    empty_third_channel = np.zeros((FRAME_RESIZE[0], FRAME_RESIZE[1], 1))
+    batch = 0
+    with torch.no_grad():
+        for frames, masks in loader:
+            frames = frames.to(DEVICE)
+            masks = masks.to(DEVICE)
+            preds = model(frames)
+            preds = torch.sigmoid(preds)
+            preds = preds.data.cpu()  # .numpy()
+            # Change channel-order and make 3 channels for matplot
+            frames_rgb = [reverse_transform(x) for x in frames.cpu()]
+            masks_rgb = [reverse_transform_masks_preds(x) for x in masks.cpu()]
+            preds_rgb = [reverse_transform_masks_preds(x) for x in preds]
 
-    train_frames, val_frames, test_frames = get_train_val_test_frames(FRAMES_DIR)
-    print(f'len(train_frames) = {len(train_frames)}, len(val_frames) = {len(val_frames)}, len(test_frames) = {len(test_frames)}')
-    print(f'len(all_frames) = {len(train_frames.union(val_frames).union(test_frames))}')
+            i = batch
+            for frame in frames_rgb:
+                frame_path = os.path.join(preds_path, f'{str(i)}_frame.png')
+                cv2.imwrite(frame_path, frame)
+                frames_paths.append(frame_path)
+                i += 1
 
-    dataset_utils.clean_dir(MHE_MASKS_DIR)
+            i = batch
+            for mask in masks_rgb:
+                mask = np.append(mask, empty_third_channel, axis=2)
+                mask_path = os.path.join(preds_path, f'{str(i)}_mask.png')
+                cv2.imwrite(mask_path, mask)
+                masks_paths.append(mask_path)
+                for j in range(mask.shape[2]):
+                    submask = mask[:, :, j]
+                    submask_path = os.path.join(preds_path, f'{str(i)}_mask_{j + 1}.png')
+                    cv2.imwrite(submask_path, submask)
 
-    train_aug_dataset = CapillariesSegDataset(
-        FRAMES_DIR,
-        MASKS_DIR,
-        list(train_frames),
-        augmentation=get_training_augmentation(),
-        transform=get_trans(),
-        #preprocessing=get_preprocessing(None),
-        classes=CLASSES
-    )
+                i += 1
 
-    val_dataset = CapillariesSegDataset(
-        FRAMES_DIR,
-        MASKS_DIR,
-        list(val_frames),
-        augmentation=None,
-        transform=get_trans(),
-        #preprocessing=get_preprocessing(None),
-        classes=CLASSES
-    )
+            i = batch
+            for pred in preds_rgb:
+                pred_path = os.path.join(preds_path, f'{str(i)}_pred.png')
+                pred = np.append(pred, empty_third_channel, axis=2)
+                cv2.imwrite(pred_path, pred)
+                preds_paths.append(pred_path)
+                for j in range(pred.shape[2]):
+                    subpred = pred[:, :, j]
+                    subpred_path = os.path.join(preds_path, f'{str(i)}_pred_{j + 1}.png')
+                    cv2.imwrite(subpred_path, subpred)
 
-    image_datasets = {
-        'train': train_aug_dataset, 'val': val_dataset
-    }
+                i += 1
 
-    train_loader = DataLoader(train_aug_dataset, batch_size=TRAIN_BATCH_SIZE, shuffle=True, num_workers=n_cpu//2)  # num_workers=8
-    val_loader = DataLoader(val_dataset, batch_size=VAL_BATCH_SIZE, shuffle=False, num_workers=n_cpu//2)  # num_workers=4
+            batch += BATCH_SIZE
 
-    dataloaders = {
-        'train': train_loader,
-        'val': val_loader
-    }
+    return preds_paths, frames_paths, masks_paths
 
-    model = ResNetUNet(len(CLASSES), backbone=torchvision.models.resnet34(weights=torchvision.models.ResNet34_Weights.DEFAULT)).to(DEVICE)
-    save_summary(model)
-    #del model
-    model_path = make_model_dir(MODELS_DIR, type(model).__name__)
-    print(f'model_path: {model_path}')
-    best_model_path = os.path.join(model_path, BEST_MODEL)
 
-    # freeze backbone layers
-    for l in model.base_layers:
-        for param in l.parameters():
-            param.requires_grad = False
-
-    optimizer_ft = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4)
-    exp_lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer_ft, step_size=8, gamma=0.1)
-    model, metrics_lists = train_model(model, optimizer_ft, exp_lr_scheduler, best_model_path, num_epochs=NUM_OF_EPOCHS)
-    #print(f'metrics_lists: {metrics_lists}')
-    saved = save_logs(os.path.join(model_path, 'train_val_logs.txt'), metrics_lists)
-    print(f'save_logs(): {saved}')
-
-    model.eval()  # Set model to the evaluation mode
-
-    # Create a new simulation dataset for testing
-    # create test dataset
-    test_dataset = CapillariesSegDataset(
-        FRAMES_DIR,
-        MASKS_DIR,
-        list(test_frames),
-        augmentation=None,
-        transform=get_trans(),
-        #preprocessing=get_preprocessing(None),
-        classes=CLASSES
-    )
-
-    test_dataloader = DataLoader(test_dataset, batch_size=VAL_BATCH_SIZE, shuffle=True, num_workers=n_cpu//2)
-
-    # Get the first batch
-    inputs, labels = next(iter(test_dataloader))
-    inputs = inputs.to(DEVICE)
-    labels = labels.to(DEVICE)
-    print(f'inputs.shape: {inputs.shape}')
-    print(f'labels.shape: {labels.shape}')
-
-    # Predict
-    pred = model(inputs)
-    # The loss functions include the sigmoid function.
-    #pred = torch.sigmoid(pred) # !!!!
-    pred = pred.data.cpu()#.numpy()
-    print(f'pred.shape: {pred.shape}')
-
-    # Change channel-order and make 3 channels for matplot
-    input_images_rgb = [reverse_transform(x) for x in inputs.cpu()]
-    #print(f'type(input_images_rgb): {type(input_images_rgb)}')
-    input_labels_rgb = [reverse_transform_labels_preds(x) for x in labels.cpu()]
-    #print(f'type(input_labels_rgb): {type(input_labels_rgb)}')
-    input_preds_rgb = [reverse_transform_labels_preds(x) for x in pred]
-    #print(f'type(input_preds_rgb): {type(input_preds_rgb)}')
-
-    # Map each channel (i.e. class) to each color
-    #target_masks_rgb = [helper.masks_to_colorimg(x) for x in labels.cpu().numpy()]
-    #pred_rgb = [helper.masks_to_colorimg(x) for x in pred]
-
-    preds_dir = os.path.join(model_path, 'preds')
-    inputs_labels_pred = (input_images_rgb, input_labels_rgb, input_preds_rgb)
-    preds_paths = save_preds_metrics(preds_dir, inputs_labels_pred)
-    print(f'len(preds_paths) : {len(preds_paths)}')
-
+def save_plot(model_path, metrics_lists):
     train_logs = {SUBLOSS2: [], SUBLOSS1: [], LOSS: []}
     valid_logs = {SUBLOSS2: [], SUBLOSS1: [], LOSS: []}
 
@@ -742,3 +640,110 @@ if __name__ == '__main__':
 
     train_val_plot_path = os.path.join(model_path, "train_val_plot.png")
     plt.savefig(train_val_plot_path, bbox_inches='tight')
+
+    return train_val_plot_path
+
+
+if __name__ == '__main__':
+    dataset_utils.test_cuda()
+    n_cpu = os.cpu_count()
+    print(f'n_cpu: {n_cpu}')
+
+    train_frames, val_frames, test_frames = get_train_val_test_frames(FRAMES_DIR)
+    print(f'len(train_frames) = {len(train_frames)}, len(val_frames) = {len(val_frames)}, len(test_frames) = {len(test_frames)}')
+    print(f'len(all_frames) = {len(train_frames.union(val_frames).union(test_frames))}')
+
+    dataset_utils.clean_dir(MHE_MASKS_DIR)
+
+    train_aug_dataset = CapillariesSegDataset(
+        FRAMES_DIR,
+        MASKS_DIR,
+        list(train_frames),
+        augmentation=get_training_augmentation(),
+        transform=get_trans(),
+        #preprocessing=get_preprocessing(None),
+        classes=CLASSES
+    )
+
+    val_dataset = CapillariesSegDataset(
+        FRAMES_DIR,
+        MASKS_DIR,
+        list(val_frames),
+        augmentation=None,
+        transform=get_trans(),
+        #preprocessing=get_preprocessing(None),
+        classes=CLASSES
+    )
+
+    image_datasets = {
+        'train': train_aug_dataset, 'val': val_dataset
+    }
+
+    train_loader = DataLoader(train_aug_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=n_cpu//2)  # num_workers=8
+    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=n_cpu//4)  # num_workers=4
+
+    dataloaders = {
+        'train': train_loader,
+        'val': val_loader
+    }
+
+    # 'resnet10t', 'resnet14t', 'resnet18', 'resnet18d', 'resnet26', 'resnet26d', 'resnet26t', 'resnet32ts', 'resnet33ts', 'resnet34', 'resnet34d', 'resnet50',
+    # 'resnet50_gn', 'resnet50d', 'resnet51q', 'resnet61q', 'resnet101', 'resnet101d', 'resnet152', 'resnet152d', 'resnet200d', 'resnetaa50', 'resnetblur50', 'resnetrs50', 'resnetrs101', 'resnetrs152', 'resnetrs200', 'resnetrs270',
+    # 'resnetrs350', 'resnetrs420', 'resnetv2_50', 'resnetv2_50d_evos', 'resnetv2_50d_gn', 'resnetv2_50x1_bit_distilled', 'resnetv2_50x1_bitm', 'resnetv2_50x1_bitm_in21k', 'resnetv2_50x3_bitm', 'resnetv2_50x3_bitm_in21k', 'resnetv2_101',
+    # 'resnetv2_101x1_bitm', 'resnetv2_101x1_bitm_in21k', 'resnetv2_101x3_bitm', 'resnetv2_101x3_bitm_in21k', 'resnetv2_152x2_bit_teacher', 'resnetv2_152x2_bit_teacher_384', 'resnetv2_152x2_bitm', 'resnetv2_152x2_bitm_in21k',
+    # 'resnetv2_152x4_bitm', 'resnetv2_152x4_bitm_in21k'
+
+    backbone_name = 'resnet34d'
+    backbone = timm.create_model(backbone_name, features_only=True, pretrained=True, num_classes=len(CLASSES))
+    #backbone = torchvision.models.resnet34(weights=torchvision.models.ResNet34_Weights.DEFAULT)
+    #backbone = torchvision.models.resnet18(weights=torchvision.models.ResNet18_Weights.DEFAULT)
+    #backbone = timm.create_model('xception', features_only=True, pretrained=True, num_classes=len(CLASSES))
+
+    model = ResNetUNet(len(CLASSES), backbone=backbone).to(DEVICE)
+    save_summary(model)
+
+    # freeze backbone layers
+    for l in model.base_layers:
+        for param in l.parameters():
+            param.requires_grad = False
+
+    optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4)
+    #lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=20, gamma=0.1) # step_size=30
+    #lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.25, patience=20, eps=1e-5, verbose=True)  # eps=1e-4
+    lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', verbose=True)
+    params = f'epochs_{NUM_OF_EPOCHS}__batch_{BATCH_SIZE}__backbone_{type(backbone).__name__}__{backbone_name}__optimizer_{type(optimizer).__name__}__lr_scheduler_{type(lr_scheduler).__name__}'
+    model_path = make_model_dir(MODELS_DIR, type(model).__name__, params=params)
+    print(f'model_path: {model_path}')
+    best_model_path = os.path.join(model_path, BEST_MODEL)
+
+    model, metrics_lists = train_model(model, optimizer, lr_scheduler, best_model_path, num_epochs=NUM_OF_EPOCHS)
+    saved = save_logs(os.path.join(model_path, 'train_val_logs.txt'), metrics_lists)
+    print(f'save_logs(): {saved}')
+
+    train_val_plot_path = save_plot(model_path, metrics_lists)
+    print(f'train_val_plot_path: {train_val_plot_path}')
+
+    model.eval() # Set model to the evaluation mode
+
+    # create test dataset
+    test_dataset = CapillariesSegDataset(
+        FRAMES_DIR,
+        MASKS_DIR,
+        list(test_frames),
+        augmentation=None,
+        transform=get_trans(),
+        classes=CLASSES
+    )
+
+    test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=n_cpu//2)
+    preds_dir = os.path.join(model_path, 'preds')
+    preds_paths, frames_paths, masks_paths = save_predictions(test_dataloader, model, preds_dir)
+
+    print(f'len(preds_paths): {len(preds_paths)}')
+    print(f'preds_paths: {preds_paths}')
+
+    print(f'len(frames_paths): {len(frames_paths)}')
+    print(f'frames_paths: {frames_paths}')
+
+    print(f'len(masks_paths): {len(masks_paths)}')
+    print(f'masks_paths: {masks_paths}')
