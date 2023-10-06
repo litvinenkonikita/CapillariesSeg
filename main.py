@@ -23,7 +23,7 @@ from torchvision import transforms, models
 #CLASSES = (1, 2, 3) # ('Background', 'Nail', 'Primary Capillary', 'Secondary Capillary')
 CLASSES = (1, 2) # ('Background', 'Nail', 'Capillary')
 
-TRAIN_VAL_TEST_RATIO = (22, 6, 1) # (8, 1, 1)
+TRAIN_VAL_TEST_RATIO = (45, 14, 0)
 
 DIR_PATH = os.path.dirname(__file__)
 CSD_PATH = os.path.join(DIR_PATH, 'capillaries_seg_data')
@@ -76,6 +76,7 @@ def get_train_val_test_frames(frames_path, ratio=TRAIN_VAL_TEST_RATIO):
         val_count = all_frames_count * ratio[1] // ratio_sum
         test_count = val_test_count - val_count
 
+    random.seed(1)
     train_frames = set(random.sample(all_frames, train_count))
     val_test_frames = set(all_frames) - train_frames
     val_frames = set(random.sample(list(val_test_frames), val_count))
@@ -731,7 +732,10 @@ if __name__ == '__main__':
     optimizer_params = ''
     #optimizer_params = 'weight_decay=1e-6, amsgrad=True'
 
-    params = f'epochs_{NUM_OF_EPOCHS}__batch_{BATCH_SIZE}__backbone_{type(backbone).__name__}__{backbone_name}__optimizer_{type(optimizer).__name__}__lr_scheduler_{type(lr_scheduler).__name__}__BCE_WEIGHT_{BCE_WEIGHT}__LR1_{LR1}__{optimizer_params}'
+    params = (f'epochs_{NUM_OF_EPOCHS}__batch_{BATCH_SIZE}__backbone_{type(backbone).__name__}__{backbone_name}__'
+              f'optimizer_{type(optimizer).__name__}__lr_scheduler_{type(lr_scheduler).__name__}__BCE_WEIGHT_{BCE_WEIGHT}'
+              f'__LR1_{LR1}__RATIO_({len(train_frames)}, {len(val_frames)}, {len(test_frames)})')
+
     model_path = make_model_dir(MODELS_DIR, type(model).__name__, params=params)
     print(f'model_path: {model_path}')
     best_model_path = os.path.join(model_path, BEST_MODEL)
@@ -743,6 +747,7 @@ if __name__ == '__main__':
     train_val_plot_path = save_plot(model_path, metrics_lists)
     print(f'train_val_plot_path: {train_val_plot_path}')
 
+    """
     model.eval() # Set model to the evaluation mode
 
     # create test dataset
@@ -767,3 +772,4 @@ if __name__ == '__main__':
 
     print(f'len(masks_paths): {len(masks_paths)}')
     print(f'masks_paths: {masks_paths}')
+    """
